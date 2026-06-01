@@ -11,11 +11,11 @@ export function Header65() {
           Wissen
         </p>
         <h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-10xl">
-          Bauwissen & Inspiration aus Bayern
+          Wissen & Inspiration für Montage & Renovierung
         </h1>
         <p className="text-text-alternative md:text-md">
-          Tipps, Einblicke und Nachrichten für Hausbesitzer und Renovierer in
-          Bayern
+          Tipps, Einblicke und Nachrichten von Montage & Renovierungen Pieczka
+          für Hausbesitzer im südöstlichen Bayern
         </p>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
           <Button title="Lesen">Lesen</Button>
@@ -26,7 +26,7 @@ export function Header65() {
       </div>
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-aerial-construction.jpg"
+          src="/images/zwei-bauarbeiter.jpg"
           className="size-full object-cover"
           alt="Relume placeholder image"
         />

@@ -24,15 +24,15 @@ export function Contact14() {
             </h2>
             <p className="font-body text-base leading-relaxed text-[#0D2020]/60 md:text-lg">
               Zögern Sie nicht, uns zu kontaktieren. Gerne fertigen wir Ihnen
-              ein individuelles Angebot für Ihren Innenausbau in Regensburg an.
+              ein individuelles Angebot für Ihr Projekt im südöstlichen Bayern an.
             </p>
           </div>
 
           {/* Right: Google Maps */}
           <div className="overflow-hidden rounded-sm" style={{ minHeight: 280 }}>
             <iframe
-              title="K.M. Trockenbau Standort"
-              src="https://maps.google.com/maps?q=Siegfriedstrasse+3%2C+93051+Regensburg&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="Montage & Renovierungen Pieczka Standort"
+              src="https://maps.google.com/maps?q=Im+Schreinerfeld+5%2C+84163+Marklkofen&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 280 }}
@@ -57,9 +57,9 @@ export function Contact14() {
             </p>
             <a
               className="font-body text-base font-semibold text-[#0D2020] transition-colors duration-200 hover:text-[#5AACB5]"
-              href="tel:+4917638583954"
+              href="tel:+491716561613"
             >
-              +49 (0) 176 38 58 39 54
+              +49 171 6561613
             </a>
           </div>
 
@@ -75,9 +75,9 @@ export function Contact14() {
             </p>
             <a
               className="font-body text-base font-semibold text-[#0D2020] transition-colors duration-200 hover:text-[#5AACB5]"
-              href="mailto:info-kalac-trockenbau@web.de"
+              href="mailto:info@montage-pieczka.de"
             >
-              info-kalac-trockenbau@web.de
+              info@montage-pieczka.de
             </a>
           </div>
 
@@ -89,8 +89,8 @@ export function Contact14() {
               Standort
             </h3>
             <p className="font-body text-base text-[#0D2020]/60">
-              Siegfriedstrasse 3<br />
-              93051 Regensburg
+              Im Schreinerfeld 5<br />
+              84163 Marklkofen
             </p>
           </div>
         </div>

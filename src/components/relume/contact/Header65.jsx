@@ -7,7 +7,7 @@ export function Header65() {
     <section className="relative w-full overflow-hidden" style={{ height: "55vh", backgroundColor: "#0D2020" }}>
       <img
         src="/images/kontakt-header.jpg"
-        alt="Kontakt K.M. Trockenbau – Angebot anfragen"
+        alt="Kontakt Montage & Renovierungen Pieczka – Angebot anfragen"
         className="absolute inset-0 h-full w-full object-cover"
         style={{ objectPosition: "50% 40%" }}
       />
@@ -21,10 +21,10 @@ export function Header65() {
       {/* Label unten links */}
       <div className="absolute bottom-8 left-8 md:left-[5%]">
         <p className="font-body text-xs font-semibold uppercase tracking-[0.28em] text-[#7BBFB8]">
-          Inhaber · K.M. Trockenbau
+          Inhaber · Montage & Renovierungen Pieczka
         </p>
         <p className="mt-1 font-heading text-2xl font-bold text-white md:text-3xl">
-          Kalac Mujo
+          Adrian Pieczka
         </p>
       </div>
     </section>

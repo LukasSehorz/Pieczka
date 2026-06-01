@@ -7,7 +7,7 @@ export function PortfolioHeader4() {
     <section id="relume" className="relative px-[5%]">
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-aerial-construction.jpg"
+          src="/images/projekte-bg.jpg"
           alt="Relume placeholder image 1"
           className="size-full object-cover"
         />

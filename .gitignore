@@ -18,6 +18,12 @@ WM-Bau-GmbH/
 # Firecrawl temp data
 .firecrawl/
 
+# Claude Code internals
+.claude/
+
+# Business documents
+Angebot/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

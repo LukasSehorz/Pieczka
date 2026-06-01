@@ -4,8 +4,8 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "../../../utils/gsap";
 
 const team = [
-  { name: "Kalac Mujo", role: "Inhaber & Geschäftsführer", img: "/images/team-kalac.svg" },
-  
+  { name: "Adrian Pieczka", role: "Inhaber & Geschäftsführer", img: "/images/team-pieczka.jpg" },
+
 ];
 
 const splitWords = (el, text) => {
@@ -91,7 +91,7 @@ export function Team() {
         {/* Heading */}
         <div className="mb-14 md:mb-18">
           <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#5AACB5]">
-            Menschen bei K.M. Trockenbau
+            Menschen bei Montage & Renovierungen Pieczka
           </p>
           <h2
             ref={headingRef}
@@ -101,7 +101,7 @@ export function Team() {
             Unser Team
           </h2>
           <p ref={subRef} className="mt-4 max-w-xl font-body text-base text-[#0D2020]/60">
-            Kalac Mujo führt K.M. Trockenbau mit Leidenschaft für Qualität und handwerklicher Präzision.
+            Adrian Pieczka führt Montage & Renovierungen Pieczka mit Leidenschaft für Qualität und handwerklicher Präzision.
           </p>
         </div>
 
@@ -113,16 +113,19 @@ export function Team() {
               ref={(el) => (cardsRef.current[idx] = el)}
               className="group flex flex-col items-center text-center"
             >
-              {/* Photo */}
-              <div data-team-photo className="relative mb-4 overflow-hidden w-full aspect-square rounded-2xl">
-                <img
-                  src={member.img}
-                  alt={member.name}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                {/* Gold bottom line on hover */}
+              {/* Photo — Platzhalter bis Foto vorliegt */}
+              <div
+                data-team-photo
+                className="relative mb-4 overflow-hidden w-full aspect-square rounded-2xl flex flex-col items-center justify-center"
+                style={{ background: "linear-gradient(160deg, #0D2020 0%, #112828 60%, #183030 100%)" }}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" className="w-24 opacity-20" fill="#7BBFB8">
+                  <ellipse cx="100" cy="72" rx="46" ry="52" />
+                  <path d="M10 260c0-57 40-95 90-95s90 38 90 95H10z" />
+                </svg>
+                <p className="mt-4 font-body text-[10px] font-semibold uppercase tracking-[0.3em]" style={{ color: "#7BBFB8", opacity: 0.45 }}>
+                  Foto folgt
+                </p>
                 <div className="absolute bottom-0 left-0 h-[3px] w-0 bg-[#5AACB5] transition-all duration-500 group-hover:w-full" />
               </div>
 

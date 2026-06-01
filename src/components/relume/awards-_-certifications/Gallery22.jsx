@@ -62,8 +62,8 @@ export function Gallery22() {
             <CarouselItem className="basis-1/2 pl-0 pr-6 md:basis-1/3 md:pr-8">
               <div className="w-full">
                 <img
-                  src="/images/hero-aerial-construction.jpg"
-                  alt="Relume placeholder image 1"
+                  src="/images/zwei-bauarbeiter.jpg"
+                  alt="Handwerker bei der Arbeit"
                   className="aspect-square size-full object-cover"
                 />
               </div>

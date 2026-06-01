@@ -12,64 +12,66 @@ export function Faq8() {
             FAQ
           </h2>
           <p className="md:text-md">
-            Common questions about building and renovating in Bavaria
+            Häufige Fragen zu Montage & Renovierung im südöstlichen Bayern
           </p>
           <div className="mt-6 md:mt-8">
-            <Button title="Contact" variant="secondary">
-              Contact
+            <Button title="Kontakt" variant="secondary">
+              Kontakt
             </Button>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-x-12 gap-y-10 md:gap-y-12">
           <div>
             <h2 className="mb-3 text-base font-bold md:mb-4 md:text-md">
-              How long does construction take?
+              Wie lange dauert eine Montage oder Renovierung?
             </h2>
             <p>
-              Timeline depends on project scope and complexity. We provide a
-              detailed schedule during the planning phase and commit to it in
-              writing. Weather and permits can affect timelines, but we build in
-              realistic buffers.
+              Die Dauer hängt vom Umfang des Projekts ab. Wir erstellen vorab
+              einen klaren Zeitplan und halten ihn verbindlich ein. Bei
+              Fensterbau, Türenmontage oder Bodenverlegung sind viele Projekte
+              innerhalb weniger Tage abgeschlossen.
             </p>
           </div>
           <div>
             <h2 className="mb-3 text-base font-bold md:mb-4 md:text-md">
-              What happens if costs increase?
+              Was passiert, wenn sich die Kosten erhöhen?
             </h2>
             <p>
-              We offer fixed-price contracts for all projects. Any changes
-              requested by you are quoted separately before work begins. No
-              surprises, no hidden fees.
+              Wir arbeiten mit klaren Festpreisangeboten. Änderungen auf
+              Kundenwunsch werden vor Ausführung separat besprochen und
+              schriftlich festgehalten. Keine versteckten Kosten, keine
+              Nachüberraschungen.
             </p>
           </div>
           <div>
             <h2 className="mb-3 text-base font-bold md:mb-4 md:text-md">
-              Are you licensed in Bavaria?
+              In welchen Regionen arbeiten Sie?
             </h2>
             <p>
-              Yes. We hold all required certifications and licenses for
-              construction work in Bavaria. We know local building codes, soil
-              conditions, and weather challenges that matter for your project.
+              Wir sind im südöstlichen Bayern tätig – mit Schwerpunkt im Raum
+              Marklkofen, Dingolfing, Landshut und Umgebung. Sprechen Sie uns
+              an, wenn Sie unsicher sind, ob Ihr Standort dabei ist.
             </p>
           </div>
           <div>
             <h2 className="mb-3 text-base font-bold md:mb-4 md:text-md">
-              Can I see previous projects?
+              Kann ich abgeschlossene Projekte besichtigen?
             </h2>
             <p>
-              Absolutely. Visit our Projects page to see completed renovations
-              and builds across Munich, Augsburg, Regensburg, and other Bavarian
-              cities. We also provide references on request.
+              Ja. Auf unserer Projektseite finden Sie Referenzen aus
+              Fensterbau, Türenmontage, Metalltore und Bodenverlegung. Auf
+              Wunsch nennen wir Ihnen auch persönliche Referenzen.
             </p>
           </div>
           <div>
             <h2 className="mb-3 text-base font-bold md:mb-4 md:text-md">
-              What's included in a consultation?
+              Was beinhaltet eine Erstberatung?
             </h2>
             <p>
-              We listen to your vision, assess your property, discuss budget and
-              timeline, and explain our process. No obligation, no sales
-              pressure. You'll leave with a clear understanding of next steps.
+              Wir hören zu, besichtigen bei Bedarf das Objekt, besprechen
+              Budget und Zeitrahmen und erklären den Ablauf. Keine Verpflichtung,
+              kein Verkaufsdruck – Sie verlassen das Gespräch mit einem klaren
+              Überblick über die nächsten Schritte.
             </p>
           </div>
         </div>

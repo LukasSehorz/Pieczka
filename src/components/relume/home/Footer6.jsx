@@ -6,12 +6,12 @@ const footerLinks = [
   {
     heading: "Leistungen",
     links: [
-      { label: "Trockenbau", href: "/leistungen" },
-      { label: "Dachbodenausbau", href: "/leistungen" },
-      { label: "Wärme- & Schallschutz", href: "/leistungen" },
-      { label: "Trockenbaudecke", href: "/leistungen" },
-      { label: "Bodenbeläge", href: "/leistungen" },
-      { label: "Badsanierung", href: "/leistungen" },
+      { label: "Fensterbau", href: "/leistungen" },
+      { label: "Türenbau", href: "/leistungen" },
+      { label: "Metalltore & Garagentore", href: "/leistungen" },
+      { label: "Bodenleger", href: "/leistungen" },
+      { label: "Renovierungsarbeiten", href: "/leistungen" },
+      { label: "Montagearbeiten", href: "/leistungen" },
     ],
   },
   {
@@ -27,9 +27,9 @@ const footerLinks = [
     heading: "Kontakt",
     links: [
       { label: "Angebot anfragen", href: "/kontakt" },
-      { label: "info-kalac-trockenbau@web.de", href: "mailto:info-kalac-trockenbau@web.de" },
-      { label: "+49 176 38583954", href: "tel:+4917638583954" },
-      { label: "Siegfriedstrasse 3, Regensburg", href: "/kontakt" },
+      { label: "info@montage-pieczka.de", href: "mailto:info@montage-pieczka.de" },
+      { label: "+49 171 6561613", href: "tel:+491716561613" },
+      { label: "Im Schreinerfeld 5, Marklkofen", href: "/kontakt" },
     ],
   },
   {
@@ -49,18 +49,18 @@ export function Footer6() {
         <div className="mb-12 flex flex-col gap-6 border-b border-border-alternative pb-12 lg:flex-row lg:items-start lg:justify-between lg:gap-0">
           <div>
             <p className="mb-1 font-heading text-base font-bold tracking-wide text-text-alternative">
-              K.M. Trockenbau
+              Montage & Renovierungen Pieczka
             </p>
             <p className="font-body text-sm text-text-alternative/60">
-              Kalac Mujo · Siegfriedstrasse 3 · 93051 Regensburg
+              Adrian Pieczka · Im Schreinerfeld 5 · 84163 Marklkofen
             </p>
           </div>
           <div className="flex flex-col gap-1 text-sm font-body text-text-alternative/60">
-            <a href="tel:+4917638583954" className="hover:text-hoser-gold transition-colors duration-200">
-              +49 (0) 176 38 58 39 54
+            <a href="tel:+491716561613" className="hover:text-hoser-gold transition-colors duration-200">
+              +49 171 6561613
             </a>
-            <a href="mailto:info-kalac-trockenbau@web.de" className="hover:text-hoser-gold transition-colors duration-200">
-              info-kalac-trockenbau@web.de
+            <a href="mailto:info@montage-pieczka.de" className="hover:text-hoser-gold transition-colors duration-200">
+              info@montage-pieczka.de
             </a>
           </div>
         </div>
@@ -91,10 +91,10 @@ export function Footer6() {
         {/* Bottom bar */}
         <div className="border-t border-border-alternative pt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
           <a href="/" className="font-heading text-base font-bold tracking-[0.12em] uppercase text-text-alternative">
-            K.M. Trockenbau
+            M. & R. Pieczka
           </a>
           <p className="font-body text-xs text-text-alternative/40">
-            © {new Date().getFullYear()} K.M. Trockenbau · Kalac Mujo · Steuernr. 24423430024
+            © {new Date().getFullYear()} Montage & Renovierungen Pieczka · Adrian Pieczka
           </p>
         </div>
       </div>

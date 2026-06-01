@@ -9,10 +9,10 @@ export function Testimonial6() {
       <div className="container">
         <div className="mb-12 w-full md:mb-18 lg:mb-20">
           <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-            Real voices
+            Kundenstimmen
           </h1>
           <p className="md:text-md">
-            Homeowners in Bavaria share their experience
+            Hausbesitzer im südöstlichen Bayern berichten von ihrer Erfahrung mit Pieczka
           </p>
         </div>
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-3 md:gap-x-8 lg:gap-x-12 lg:gap-y-16">
@@ -31,7 +31,7 @@ export function Testimonial6() {
             <div className="mt-6 flex w-full flex-col md:mt-8 md:w-auto">
               <div className="mb-4">
                 <img
-                  src="/images/hero-aerial-construction.jpg"
+                  src="/images/team/ceo_man.jpg"
                   alt="Testimonial avatar 1"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
                 />
@@ -106,7 +106,7 @@ export function Testimonial6() {
               </div>
               <div className="mb-3 md:mb-4">
                 <p className="font-semibold">Thomas Weber</p>
-                <p>Homeowner, Regensburg</p>
+                <p>Hausbesitzer, Marklkofen</p>
               </div>
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>

@@ -4,9 +4,9 @@ import React, { useEffect, useRef } from "react";
 import { gsap, ScrollTrigger } from "../../../utils/gsap";
 
 const points = [
-  "Einhaltung aller aktuellen DIN-Normen beim Trocken- und Innenausbau",
-  "Kontinuierliche Weiterbildung für höchste Qualität und Terminsicherheit",
-  "Persönliche Beratung auch zu Brandschutz und Sicherheitssystemen",
+  "Fachgerechte Montage von Fenstern, Türen, Toren und Bodenbelägen",
+  "Zuverlässige Terminplanung und saubere Ausführung auf jeder Baustelle",
+  "Persönliche Beratung und transparente Festpreisangebote ohne Überraschungen",
 ];
 
 // Helper: split text into char spans
@@ -94,7 +94,7 @@ export function Layout16() {
       // Heading: word-by-word lift from below
       let headingWords = [];
       if (headingRef.current) {
-        headingWords = splitWords(headingRef.current, "Ihr zuverlässiger Trockenbauexperte in Regensburg.");
+        headingWords = splitWords(headingRef.current, "Ihr zuverlässiger Montageprofi im südöstlichen Bayern.");
         gsap.set(headingWords, { yPercent: 110 });
       }
 
@@ -163,7 +163,7 @@ export function Layout16() {
       {/* Background video */}
       <video
         ref={videoRef}
-        src="/videos/trockenbau-bg.mp4"
+        src="/videos/pieczka-hero.mp4"
         className="absolute inset-0 h-full w-full object-cover"
         autoPlay
         muted
@@ -179,23 +179,23 @@ export function Layout16() {
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
             <p ref={eyebrowRef} className="mb-4 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#7BBFB8]">
-              Warum K.M. Trockenbau
+              Warum Montage & Renovierungen Pieczka
             </p>
             <h2
               ref={headingRef}
               className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl"
             >
-              Ihr zuverlässiger Trockenbauexperte in Regensburg.
+              Ihr zuverlässiger Montageprofi im südöstlichen Bayern.
             </h2>
             <p
               ref={paraRef}
-              data-text="Wir haben langjährige Erfahrung im Innenausbau und beherrschen alle Systeme im Wand-, Decken- und Bodenbereich. Von der individuellen Erstberatung bis zur Fertigstellung sorgen wir für klar konzipierte Strukturen und gehen auf Ihre Wünsche und Vorstellungen ein."
+              data-text="Wir haben langjährige Erfahrung in der Montage und Renovierung und beherrschen alle Arbeiten rund um Fenster, Türen, Tore und Böden. Von der individuellen Erstberatung bis zur Fertigstellung sorgen wir für saubere Ergebnisse und gehen auf Ihre Wünsche und Vorstellungen ein."
               className="mb-6 font-body text-base leading-relaxed text-white/90 md:text-lg"
             >
-              Wir haben langjährige Erfahrung im Innenausbau und beherrschen alle
-              Systeme im Wand-, Decken- und Bodenbereich. Von der individuellen
-              Erstberatung bis zur Fertigstellung sorgen wir für klar konzipierte
-              Strukturen und gehen auf Ihre Wünsche und Vorstellungen ein.
+              Wir haben langjährige Erfahrung in der Montage und Renovierung und
+              beherrschen alle Arbeiten rund um Fenster, Türen, Tore und Böden.
+              Von der individuellen Erstberatung bis zur Fertigstellung sorgen wir
+              für saubere Ergebnisse und gehen auf Ihre Wünsche und Vorstellungen ein.
             </p>
             <ul ref={listRef} className="mb-8 space-y-4">
               {points.map((p) => (

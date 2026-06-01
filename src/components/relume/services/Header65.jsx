@@ -13,11 +13,11 @@ export function Header65() {
           className="mb-5 font-heading font-bold leading-[1.05] tracking-tight text-white"
           style={{ fontSize: "clamp(2.8rem, 6vw, 6rem)" }}
         >
-          Innenausbau aus einer Hand.
+          Montage & Renovierung aus einer Hand.
         </h1>
         <p className="font-body text-base leading-relaxed text-white/65 md:text-lg">
-          Trockenbau, Dachbodenausbau, Wärme- und Schallschutz, Decken, Böden und Badsanierung —
-          wir übernehmen alle Innenausbauarbeiten in Regensburg und Umgebung.
+          Fensterbau, Türenbau, Metalltore, Garagentore, Bodenleger und Renovierungsarbeiten —
+          wir übernehmen alle Montage- und Renovierungsarbeiten im südöstlichen Bayern.
           Von der individuellen Erstberatung bis zur Fertigstellung.
         </p>
       </div>
@@ -25,7 +25,7 @@ export function Header65() {
         <img
           src="/images/craftsmen-stone-facade.jpg"
           className="size-full object-cover"
-          alt="K.M. Trockenbau Leistungen"
+          alt="Montage & Renovierungen Pieczka Leistungen"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/25" />
       </div>

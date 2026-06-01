@@ -33,7 +33,7 @@ export function VideoAbout() {
     const ctx = gsap.context(() => {
       gsap.set(eyebrowRef.current, { y: 22, opacity: 0 });
       const headingWords = headingRef.current
-        ? splitWords(headingRef.current, "Drei Generationen. Eine Überzeugung.")
+        ? splitWords(headingRef.current, "Handwerk mit Leidenschaft. Qualität mit Anspruch.")
         : [];
       gsap.set(headingWords, { yPercent: 110 });
       gsap.set(videoWrapRef.current, { clipPath: "inset(0 100% 0 0)" });
@@ -77,14 +77,14 @@ export function VideoAbout() {
         {/* Text above */}
         <div className="mb-8 md:mb-10">
           <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-hoser-gold">
-            2020 bis heute
+            Marklkofen · Südöstliches Bayern
           </p>
           <h2
             ref={headingRef}
             className="font-heading font-bold text-text-primary leading-tight"
             style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "#0D2020" }}
           >
-            Drei Generationen. Eine Überzeugung.
+            Handwerk mit Leidenschaft. Qualität mit Anspruch.
           </h2>
         </div>
 
@@ -103,8 +103,8 @@ export function VideoAbout() {
 
         {/* Text below */}
         <p ref={paraRef} className="mt-6 font-body text-base leading-relaxed text-[#0D2020]/60 md:text-lg max-w-xl">
-          Was 2020 mit klaren Werten begann, trägt K.M. Trockenbau heute
-          über 60 Fachkräfte weiter. Die Werte haben sich nicht verändert –
+          Was mit klaren Werten begann, trägt Montage & Renovierungen Pieczka
+          täglich weiter. Die Werte haben sich nicht verändert –
           nur die Möglichkeiten, sie umzusetzen.
         </p>
 

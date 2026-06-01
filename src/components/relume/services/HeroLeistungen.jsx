@@ -158,7 +158,7 @@ export function HeroLeistungen() {
       <img
         ref={imageRef}
         src="/images/leistungen-hero.jpg"
-        alt="K.M. Trockenbau – Leistungen"
+        alt="Montage & Renovierungen Pieczka – Leistungen"
         className="absolute inset-0 h-full w-full object-cover"
         style={{ willChange: "transform, filter" }}
       />
@@ -194,7 +194,7 @@ export function HeroLeistungen() {
       {/* Top-right meta strip */}
       <div className="absolute top-24 right-[5%] hidden lg:flex items-center gap-3 font-body text-[11px] uppercase tracking-[0.3em] text-white/70">
         <span className="h-px w-10 bg-white/55" />
-        <span>Bauunternehmung</span>
+        <span>Montage & Renovierung</span>
       </div>
 
       {/* Main content */}
@@ -221,9 +221,9 @@ export function HeroLeistungen() {
               ref={subRef}
               className="md:col-span-6 lg:col-span-5 font-body text-base md:text-lg leading-relaxed text-white/75 max-w-xl"
             >
-              Ein Ansprechpartner. Vom ersten Spatenstich bis zur
-              schlüsselfertigen Übergabe – wir verbinden traditionelles Handwerk
-              mit modernster Bautechnik.
+              Ein Ansprechpartner. Von Fenstern und Türen über Metalltore bis hin
+              zu Bodenbelägen und Renovierungen – Pieczka erledigt das
+              mit handwerklicher Präzision.
             </p>
 
             <div
@@ -235,7 +235,7 @@ export function HeroLeistungen() {
                   Standort
                 </span>
                 <span className="font-heading text-lg font-semibold text-white">
-                  Regensburg · Regensburg
+                  Marklkofen · Niederbayern
                 </span>
               </div>
             </div>

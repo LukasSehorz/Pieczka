@@ -125,7 +125,7 @@ export function Stats20() {
           Ergebnisse, die für sich sprechen
         </h2>
         <p ref={subRef} className="mt-4 max-w-xl font-body text-base text-white/60">
-          Seit 2016 in Regensburg. Über 10 Jahre Erfahrung im Innenausbau — ein Name, dem man vertraut.
+          Im südöstlichen Bayern zuhause. Erfahrung in Montage & Renovierung — ein Name, dem man vertraut.
         </p>
       </div>
 

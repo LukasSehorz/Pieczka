@@ -256,7 +256,7 @@ export function Navbar() {
             />
           </svg>
           <span className={clsx("font-heading text-xl font-bold tracking-[0.08em] uppercase transition-colors duration-300", isDark ? "text-white" : "text-[#0D2020]")}>
-            K.M. Trockenbau
+            M. & R. Pieczka
           </span>
         </Link>
 
@@ -278,7 +278,7 @@ export function Navbar() {
             Kontakt
           </Link>
           <a
-            href="tel:+4915158720108"
+            href="tel:+491716561613"
             className={clsx(
               "hidden sm:inline-flex items-center gap-2 rounded-full border px-5 py-2 font-body text-sm font-medium tracking-wide transition-all duration-300",
               isDark
@@ -289,7 +289,7 @@ export function Navbar() {
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-60">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.36h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
             </svg>
-            +49 176 38583954
+            +49 171 6561613
           </a>
         </div>
       </div>
@@ -317,7 +317,7 @@ export function Navbar() {
             >
               <div className="flex items-center justify-between py-5 mb-8 border-b border-white/10">
                 <span className="font-heading text-xl font-bold tracking-[0.12em] uppercase text-white">
-                  K.M. Trockenbau
+                  M. & R. Pieczka
                 </span>
                 <button onClick={toggle} className="size-8 flex items-center justify-center text-white/70 text-2xl leading-none">
                   ×

@@ -5,7 +5,7 @@ import { gsap } from "../../../utils/gsap";
 
 const stats = [
   { value: "10+",  label: "Jahre Erfahrung",          num: 10,  suffix: "+" },
-  { value: "100%", label: "DIN-normgerecht",           num: 100, suffix: "%" },
+  { value: "6",    label: "Leistungsbereiche",         num: 6,   suffix: "" },
   { value: "1",    label: "Fester Ansprechpartner",    num: 1,   suffix: "" },
   { value: "200+", label: "Abgeschlossene Projekte",   num: 200, suffix: "+" },
 ];
@@ -168,8 +168,8 @@ export function Stats17() {
             </h2>
 
             <p className="s17-sub font-body text-base text-[#0D2020]/65 md:text-lg">
-              K.M. Trockenbau in Regensburg — Innenausbau nach aktuellen DIN-Normen,
-              mit persönlicher Beratung und kontinuierlicher Weiterbildung.
+              Montage & Renovierungen Pieczka in Marklkofen/Bayern — kompetent, zuverlässig
+              und schnell, mit persönlichem Ansprechpartner und langjähriger Erfahrung.
             </p>
             <div className="mt-8">
               <a

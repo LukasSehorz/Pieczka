@@ -6,23 +6,23 @@ import { gsap } from "../../../utils/gsap";
 const projects = [
   {
     id: "01",
-    image: "/images/projekt-tvwand.png",
-    title: "TV-Wand mit Mediannische",
-    category: "Trockenbau · Wohnzimmer",
+    image: "/images/g9-fenstermontage.jpg",
+    title: "Fenstermontage Einfamilienhaus",
+    category: "Fensterbau · Marklkofen",
     year: "2024",
   },
   {
     id: "02",
-    image: "/images/projekt-lichtdecke.png",
-    title: "Lichtdecke – Indirekte Beleuchtung",
-    category: "Trockenbaudecke · Innenausbau",
+    image: "/images/g9-tuereinbau.jpg",
+    title: "Türeneinbau Innenbereich",
+    category: "Türenbau · Renovierung",
     year: "2024",
   },
   {
     id: "03",
-    image: "/images/projekt-dachgeschoss.png",
-    title: "Dachgeschossausbau",
-    category: "Dachbodenausbau · Regensburg",
+    image: "/images/g9-garagentor.jpg",
+    title: "Garagentor & Metalltor",
+    category: "Metalltore · südöstliches Bayern",
     year: "2024",
   },
 ];

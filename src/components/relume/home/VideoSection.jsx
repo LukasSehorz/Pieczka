@@ -7,7 +7,7 @@ const keyFacts = [
   {
     lead: "1–5",
     leadUnit: "Tage",
-    desc: "Vom Aufmaß bis zur fertigen Wand – termingerecht und präzise.",
+    desc: "Vom Aufmaß bis zur fertigen Montage – termingerecht und präzise.",
   },
   {
     lead: "1",
@@ -22,7 +22,7 @@ const keyFacts = [
   {
     lead: "100%",
     leadUnit: "eigenes Personal",
-    desc: "Ausgebildete Trockenbauer für Wand, Decke & Boden.",
+    desc: "Erfahrener Monteur für Fenster, Türen, Tore & Bodenbeläge.",
   },
 ];
 
@@ -177,12 +177,15 @@ export function VideoSection() {
           className="absolute inset-0"
           style={{ willChange: "clip-path", zIndex: 1 }}
         >
-          <img
-            src="/images/trockenbau-section.jpg"
-            alt="Trockenbauer beim Einbauen von Rigips-Platten"
+          <video
             className="vs-video absolute inset-0 h-full w-full object-cover"
             style={{ willChange: "transform" }}
-          />
+            autoPlay
+            muted
+            playsInline
+          >
+            <source src="/videos/leistungen-section.mp4" type="video/mp4" />
+          </video>
 
           <div
             className="vs-dark-overlay absolute inset-0 bg-black"
@@ -210,7 +213,7 @@ export function VideoSection() {
           >
             <div style={{ overflow: "hidden", paddingBottom: "0.08em" }}>
               <span className="vs-line-inner block">
-                Vom ersten{" "}
+                Von der ersten{" "}
                 <strong
                   className="font-bold"
                   style={{
@@ -220,7 +223,7 @@ export function VideoSection() {
                     textDecorationThickness: "2px",
                   }}
                 >
-                  Aufmaß
+                  Anfrage
                 </strong>
               </span>
             </div>
@@ -236,7 +239,7 @@ export function VideoSection() {
                     textDecorationThickness: "2px",
                   }}
                 >
-                  perfekten Oberfläche.
+                  perfekten Montage.
                 </strong>
               </span>
             </div>

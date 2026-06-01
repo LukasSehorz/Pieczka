@@ -8,12 +8,12 @@ const navCols = [
   {
     heading: "Leistungen",
     links: [
-      { label: "Trockenbau", to: "/leistungen" },
-      { label: "Dachbodenausbau", to: "/leistungen" },
-      { label: "Wärme- & Schallschutz", to: "/leistungen" },
-      { label: "Trockenbaudecke", to: "/leistungen" },
-      { label: "Bodenbeläge", to: "/leistungen" },
-      { label: "Badsanierung", to: "/leistungen" },
+      { label: "Fensterbau", to: "/leistungen" },
+      { label: "Türenbau", to: "/leistungen" },
+      { label: "Metalltore & Garagentore", to: "/leistungen" },
+      { label: "Bodenleger", to: "/leistungen" },
+      { label: "Renovierungsarbeiten", to: "/leistungen" },
+      { label: "Montagearbeiten", to: "/leistungen" },
     ],
   },
   {
@@ -58,7 +58,7 @@ export function Footer() {
         style={{ fontSize: "clamp(6rem, 18vw, 22rem)", opacity: 0.04, letterSpacing: "-0.02em", lineHeight: 0.85 }}
         aria-hidden="true"
       >
-        K.M.
+        M&R
       </div>
 
       <div className="container relative px-[5%] pt-16 pb-10 md:pt-24 md:pb-12">
@@ -80,41 +80,41 @@ export function Footer() {
                 />
               </svg>
               <span className="font-heading text-lg font-bold tracking-[0.1em] uppercase text-white">
-                K.M. Trockenbau
+                Montage & Renovierungen Pieczka
               </span>
             </Link>
 
             <p className="mb-8 font-body text-sm leading-relaxed text-white/45 max-w-[22ch]">
-              Ihr zuverlässiger Baupartner in der Region Regensburg. Qualität aus einer Hand.
+              Ihr zuverlässiger Partner für Montage & Renovierung im südöstlichen Bayern.
             </p>
 
             {/* Contact */}
             <div className="space-y-3">
               <a
-                href="tel:+4915158720108"
+                href="tel:+491716561613"
                 className="flex items-center gap-3 font-body text-sm text-white/55 transition-colors duration-200 hover:text-white"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-60">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.36h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
                 </svg>
-                +49 176 38583954
+                +49 171 6561613
               </a>
               <a
-                href="mailto:info-kalac-trockenbau@web.de"
+                href="mailto:info@montage-pieczka.de"
                 className="flex items-center gap-3 font-body text-sm text-white/55 transition-colors duration-200 hover:text-white"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-60">
                   <rect x="2" y="4" width="20" height="16" rx="2"/>
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
                 </svg>
-                info-kalac-trockenbau@web.de
+                info@montage-pieczka.de
               </a>
               <p className="flex items-start gap-3 font-body text-sm text-white/40">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-60 mt-0.5">
                   <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/>
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
-                Siegfriedstrasse 3 · 93051 Regensburg
+                Im Schreinerfeld 5 · 84163 Marklkofen
               </p>
             </div>
           </div>
@@ -144,7 +144,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-body text-xs text-white/25">
-            © {new Date().getFullYear()} K.M. Trockenbau. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Montage & Renovierungen Pieczka. Alle Rechte vorbehalten.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/impressum" className="font-body text-xs text-white/30 transition-colors duration-200 hover:text-white/60">

@@ -56,10 +56,10 @@ export function Impressum() {
               Angaben gemäß § 5 DDG
             </h2>
             <div className="font-body text-base leading-relaxed text-white/75 space-y-1">
-              <p className="font-semibold text-white">K.M. Trockenbau</p>
-              <p>Inhaber: Kalac Mujo</p>
-              <p>Siegfriedstrasse 3</p>
-              <p>93051 Regensburg</p>
+              <p className="font-semibold text-white">Montage & Renovierungen Pieczka</p>
+              <p>Inhaber: Adrian Pieczka</p>
+              <p>Im Schreinerfeld 5</p>
+              <p>84163 Marklkofen</p>
               <p>Deutschland</p>
             </div>
           </div>
@@ -71,14 +71,14 @@ export function Impressum() {
             <div className="font-body text-base leading-relaxed text-white/75 space-y-1">
               <p>
                 Telefon:{" "}
-                <a href="tel:+4917638583954" className="text-white hover:text-[#7BBFB8] transition-colors">
-                  +49 (0) 176 38 58 39 54
+                <a href="tel:+491716561613" className="text-white hover:text-[#7BBFB8] transition-colors">
+                  +49 171 6561613
                 </a>
               </p>
               <p>
                 E-Mail:{" "}
-                <a href="mailto:info-kalac-trockenbau@web.de" className="text-white hover:text-[#7BBFB8] transition-colors">
-                  info-kalac-trockenbau@web.de
+                <a href="mailto:info@montage-pieczka.de" className="text-white hover:text-[#7BBFB8] transition-colors">
+                  info@montage-pieczka.de
                 </a>
               </p>
             </div>
@@ -89,7 +89,7 @@ export function Impressum() {
               Steuerangaben
             </h2>
             <div className="font-body text-base leading-relaxed text-white/75 space-y-1">
-              <p>Steuernummer: 24423430024</p>
+              <p>Steuernummer: (wird nachgetragen)</p>
             </div>
           </div>
 
@@ -98,9 +98,9 @@ export function Impressum() {
               Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
             </h2>
             <div className="font-body text-base leading-relaxed text-white/75 space-y-1">
-              <p>Kalac Mujo</p>
-              <p>Siegfriedstrasse 3</p>
-              <p>93051 Regensburg</p>
+              <p>Adrian Pieczka</p>
+              <p>Im Schreinerfeld 5</p>
+              <p>84163 Marklkofen</p>
             </div>
           </div>
 
@@ -109,7 +109,7 @@ export function Impressum() {
               Berufsbezeichnung und berufsrechtliche Regelungen
             </h2>
             <div className="font-body text-base leading-relaxed text-white/75 space-y-3">
-              <p>Berufsbezeichnung: Trockenbau / Innenausbau</p>
+              <p>Berufsbezeichnung: Montage & Renovierung</p>
               <p>Zuständige Handwerkskammer: Handwerkskammer Niederbayern-Oberpfalz</p>
               <p>Verliehen in: Deutschland</p>
             </div>

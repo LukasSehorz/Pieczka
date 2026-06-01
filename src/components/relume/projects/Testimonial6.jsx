@@ -9,7 +9,7 @@ const testimonials = [
     quote: "Jedes Detail wurde sorgfältig umgesetzt, ohne Abstriche – und das Haus war pünktlich fertig, genau wie versprochen.",
     name: "Klaus Müller",
     role: "Bauherr, München",
-    img: "/images/hero-aerial-construction.jpg",
+    img: "/images/munich-residential.jpg",
   },
   {
     quote: "Wir waren skeptisch wegen der Sanierungskosten – aber die Festpreisgarantie hat uns vom ersten Tag an Sicherheit gegeben.",

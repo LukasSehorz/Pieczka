@@ -102,7 +102,7 @@ export function ProzessCTA() {
         style={{
           right: "8.5vw", top: "50%",
           transform: "translateY(-50%)",
-          fontFamily: "Syne, sans-serif", fontWeight: 900,
+          fontWeight: 900,
           fontSize: "clamp(10rem, 22vw, 24rem)",
           color: "rgba(255,255,255,0.06)",
           letterSpacing: "-0.06em",
@@ -182,16 +182,15 @@ export function ProzessCTA() {
 
           {/* Secondary: phone link */}
           <a
-            href="tel:+498912345678"
+            href="tel:+491716561613"
             className="cta-btn group inline-flex items-center gap-4 font-body text-[0.7rem] uppercase tracking-[0.22em] text-white/65 transition-colors hover:text-white"
           >
             <span>Direkt anrufen</span>
             <span className="block h-px w-6 transition-all duration-500 group-hover:w-12 bg-white/25 group-hover:bg-white" />
             <span
-              className="text-sm font-semibold tracking-[0.05em] text-white/85"
-              style={{ fontFamily: "Syne, sans-serif" }}
+              className="font-heading text-sm font-semibold tracking-[0.05em] text-white/85"
             >
-              +49 89 1234 5678
+              +49 171 6561613
             </span>
           </a>
         </div>
@@ -205,13 +204,13 @@ export function ProzessCTA() {
             <p className="font-body text-[0.58rem] font-semibold uppercase tracking-[0.32em] text-white/30 mb-2">
               Kontakt
             </p>
-            <p className="font-body text-sm text-white/85">info-kalac-trockenbau@web.de</p>
+            <p className="font-body text-sm text-white/85">info@montage-pieczka.de</p>
           </div>
           <div className="cta-meta">
             <p className="font-body text-[0.58rem] font-semibold uppercase tracking-[0.32em] text-white/30 mb-2">
               Standort
             </p>
-            <p className="font-body text-sm text-white/85">Regensburg · Bayern</p>
+            <p className="font-body text-sm text-white/85">Marklkofen · Niederbayern</p>
           </div>
           <div className="cta-meta">
             <p className="font-body text-[0.58rem] font-semibold uppercase tracking-[0.32em] text-white/30 mb-2">

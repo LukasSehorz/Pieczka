@@ -11,21 +11,21 @@ export function Header65() {
           Transparent
         </p>
         <h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-10xl">
-          Fixed prices, no surprises
+          Faire Preise, keine Überraschungen
         </h1>
         <p className="text-text-alternative md:text-md">
-          We build in Bavaria with costs you can count on from day one
+          Montage & Renovierungen Pieczka – transparente Kosten von Anfang an
         </p>
         <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
-          <Button title="Consult">Consult</Button>
-          <Button title="View projects" variant="secondary-alt">
-            View projects
+          <Button title="Beratung anfragen">Beratung anfragen</Button>
+          <Button title="Projekte ansehen" variant="secondary-alt">
+            Projekte ansehen
           </Button>
         </div>
       </div>
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-aerial-construction.jpg"
+          src="/images/leistungen-hero.jpg"
           className="size-full object-cover"
           alt="Relume placeholder image"
         />

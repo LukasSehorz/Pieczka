@@ -5,16 +5,16 @@ import { gsap, ScrollTrigger } from "../../../utils/gsap";
 
 const kalac = {
   num: "01",
-  name: "Kalac Mujo & XXX",
+  name: "Adrian Pieczka",
   title: "Inhaber",
-  role: "Trockenbau & Innenausbau",
+  role: "Montage & Renovierungsarbeiten",
   image: "/images/geschaeftsfuehrer.png",
-  email: "info-kalac-trockenbau@web.de",
-  bio: "Kalac Mujo führt K.M. Trockenbau mit Leidenschaft für Qualität und handwerklicher Präzision. Langjährige Erfahrung im Innenausbau und kontinuierliche Weiterbildung machen ihn zu Ihrem zuverlässigen Ansprechpartner in Regensburg.",
+  email: "info@montage-pieczka.de",
+  bio: "Adrian Pieczka führt Montage & Renovierungen Pieczka mit Leidenschaft für Qualität und handwerklicher Präzision. Langjährige Erfahrung in Fensterbau, Türenbau und Renovierungsarbeiten macht ihn zu Ihrem zuverlässigen Ansprechpartner im südöstlichen Bayern.",
   facts: [
-    { label: "Unternehmen", value: "K.M. Trockenbau" },
-    { label: "Schwerpunkt", value: "Trockenbau & Innenausbau" },
-    { label: "Standort", value: "Siegfriedstrasse 3, 93051 Regensburg" },
+    { label: "Unternehmen", value: "Montage & Renovierungen Pieczka" },
+    { label: "Schwerpunkt", value: "Fensterbau, Türenbau & Montage" },
+    { label: "Standort", value: "Im Schreinerfeld 5, 84163 Marklkofen" },
   ],
 };
 
@@ -117,7 +117,7 @@ export function TeamSection() {
             ref={subtitleRef}
             className="mb-8 font-body text-sm uppercase tracking-[0.15em] text-white/40"
           >
-            {kalac.title} · K.M. Trockenbau
+            {kalac.title} · M. & R. Pieczka
           </p>
           <div
             ref={dividerRef}
@@ -163,14 +163,28 @@ export function TeamSection() {
           style={{ backgroundColor: "#D94520" }}
         />
 
-        {/* Bild rechts */}
-        <div ref={imageRef} className="flex h-full w-1/2 overflow-hidden">
-          <img
-            src={kalac.image}
-            alt={kalac.name}
-            className="h-full w-full object-cover"
-            style={{ objectPosition: "50% 10%" }}
-          />
+        {/* Bild rechts — Platzhalter bis Foto vorliegt */}
+        <div
+          ref={imageRef}
+          className="flex h-full w-1/2 flex-col items-center justify-center overflow-hidden"
+          style={{ background: "linear-gradient(160deg, #0D2020 0%, #112828 60%, #183030 100%)" }}
+        >
+          {/* Silhouette */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 200 260"
+            className="w-48 opacity-20"
+            fill="#7BBFB8"
+          >
+            <ellipse cx="100" cy="72" rx="46" ry="52" />
+            <path d="M10 260c0-57 40-95 90-95s90 38 90 95H10z" />
+          </svg>
+          <p
+            className="mt-6 font-body text-xs font-semibold uppercase tracking-[0.3em]"
+            style={{ color: "#7BBFB8", opacity: 0.45 }}
+          >
+            Foto folgt
+          </p>
         </div>
       </div>
     </div>

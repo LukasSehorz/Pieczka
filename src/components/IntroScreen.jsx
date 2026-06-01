@@ -2,11 +2,11 @@
 import { useEffect, useState } from "react";
 import { motion, LayoutGroup } from "framer-motion";
 
-const TEXT = "K.M. Trockenbau";
+const TEXT = "M. & R. Pieczka";
 const CHARS = TEXT.split("");
 
 const FONT = {
-  fontFamily: "Syne, sans-serif",
+  fontFamily: "Plus Jakarta Sans, sans-serif",
   fontWeight: 700,
   fontSize: "clamp(1.5rem, 3.2vw, 3.8rem)",
   color: "#FFFFFF",

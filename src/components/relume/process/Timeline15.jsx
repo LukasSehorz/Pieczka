@@ -51,116 +51,116 @@ export function Timeline15() {
     tabs: [
       {
         value: "tab-one",
-        trigger: "Date",
+        trigger: "Schritt 1",
         content: {
-          date: "Date",
-          heading: "Long heading is what you see here in this feature section",
+          date: "Schritt 1",
+          heading: "Erstgespräch & Beratung",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+            "Wir kommen zu Ihnen vor Ort und besprechen kostenlos Ihren Bedarf. Ob Fenster, Türen, Tore oder Böden – wir hören zu und geben eine erste Einschätzung.",
           buttons: [
-            { title: "Button", variant: "secondary" },
+            { title: "Kontakt aufnehmen", variant: "secondary" },
             {
-              title: "Button",
+              title: "Mehr erfahren",
               variant: "link",
               size: "link",
               iconRight: <RxChevronRight />,
             },
           ],
           image: {
-            src: "/images/hero-aerial-construction.jpg",
-            alt: "Relume placeholder image 1",
+            src: "/images/prozess/step1.png",
+            alt: "Erstgespräch & Beratung",
           },
         },
       },
       {
         value: "tab-two",
-        trigger: "Date",
+        trigger: "Schritt 2",
         content: {
-          date: "Date",
-          heading: "Long heading is what you see here in this feature section",
+          date: "Schritt 2",
+          heading: "Aufmaß & Angebot",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+            "Wir nehmen exaktes Aufmaß, wählen gemeinsam Materialien aus und erstellen ein verbindliches Festpreisangebot – transparent und ohne versteckte Kosten.",
           buttons: [
-            { title: "Button", variant: "secondary" },
+            { title: "Angebot anfragen", variant: "secondary" },
             {
-              title: "Button",
+              title: "Mehr erfahren",
               variant: "link",
               size: "link",
               iconRight: <RxChevronRight />,
             },
           ],
           image: {
-            src: "/images/craftsmen-stone-facade.jpg",
-            alt: "Relume placeholder image 2",
+            src: "/images/prozess/step2.png",
+            alt: "Aufmaß & Angebot",
           },
         },
       },
       {
         value: "tab-three",
-        trigger: "Date",
+        trigger: "Schritt 3",
         content: {
-          date: "Date",
-          heading: "Long heading is what you see here in this feature section",
+          date: "Schritt 3",
+          heading: "Vorbereitung & Planung",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+            "Material wird bestellt, Lieferungen koordiniert und die Baustelle vorbereitet. Wir stimmen alle Termine eng mit Ihnen ab.",
           buttons: [
-            { title: "Button", variant: "secondary" },
+            { title: "Kontakt aufnehmen", variant: "secondary" },
             {
-              title: "Button",
+              title: "Mehr erfahren",
               variant: "link",
               size: "link",
               iconRight: <RxChevronRight />,
             },
           ],
           image: {
-            src: "/images/villa-twilight.jpg",
-            alt: "Relume placeholder image 3",
+            src: "/images/prozess/step3.png",
+            alt: "Vorbereitung & Planung",
           },
         },
       },
       {
         value: "tab-four",
-        trigger: "Date",
+        trigger: "Schritt 4",
         content: {
-          date: "Date",
-          heading: "Long heading is what you see here in this feature section",
+          date: "Schritt 4",
+          heading: "Montage & Ausführung",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+            "Unsere Profis führen die Montagearbeiten sauber und pünktlich aus. Fenster, Türen, Tore und Böden werden fachgerecht eingebaut und laufend kontrolliert.",
           buttons: [
-            { title: "Button", variant: "secondary" },
+            { title: "Projekte ansehen", variant: "secondary" },
             {
-              title: "Button",
+              title: "Mehr erfahren",
               variant: "link",
               size: "link",
               iconRight: <RxChevronRight />,
             },
           ],
           image: {
-            src: "/images/interior-oak-concrete.jpg",
-            alt: "Relume placeholder image 4",
+            src: "/images/prozess/step4.png",
+            alt: "Montage & Ausführung",
           },
         },
       },
       {
         value: "tab-five",
-        trigger: "Date",
+        trigger: "Schritt 5",
         content: {
-          date: "Date",
-          heading: "Long heading is what you see here in this feature section",
+          date: "Schritt 5",
+          heading: "Abnahme & Übergabe",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+            "Gemeinsam nehmen wir die fertige Arbeit ab. Eventuelle Mängel werden garantiert beseitigt. Sie erhalten eine saubere Übergabe und vollständige Dokumentation.",
           buttons: [
-            { title: "Button", variant: "secondary" },
+            { title: "Jetzt anfragen", variant: "secondary" },
             {
-              title: "Button",
+              title: "Mehr erfahren",
               variant: "link",
               size: "link",
               iconRight: <RxChevronRight />,
             },
           ],
           image: {
-            src: "/images/team-blueprints.jpg",
-            alt: "Relume placeholder image 5",
+            src: "/images/prozess/step5.png",
+            alt: "Abnahme & Übergabe",
           },
         },
       },
@@ -184,33 +184,33 @@ export function Timeline15() {
           >
             <div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">
-                Week 1
+                Schritt 1
               </h3>
               <h4 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Consultation, site visit, and initial requirements
+                Erstgespräch & Beratung
               </h4>
               <p className="md:text-md">
-                You meet with our team. We assess the property, discuss your
-                goals, and establish the project scope.
+                Wir kommen zu Ihnen vor Ort und besprechen kostenlos Ihren Bedarf.
+                Ob Fenster, Türen, Tore oder Böden – wir hören zu und geben eine erste Einschätzung.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button title="Learn" variant="secondary">
-                  Learn
+                <Button title="Kontakt aufnehmen" variant="secondary">
+                  Kontakt aufnehmen
                 </Button>
                 <Button
-                  title="→"
+                  title="Mehr erfahren"
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
                 >
-                  →
+                  Mehr erfahren
                 </Button>
               </div>
             </div>
             <div>
               <img
-                src="/images/munich-residential.jpg"
-                alt="Relume placeholder image 1"
+                src="/images/prozess/step1.png"
+                alt="Erstgespräch & Beratung"
                 className="w-full object-cover"
               />
             </div>
@@ -221,33 +221,33 @@ export function Timeline15() {
           >
             <div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">
-                Weeks 2–3
+                Schritt 2
               </h3>
               <h4 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Design development and detailed planning
+                Aufmaß & Angebot
               </h4>
               <p className="md:text-md">
-                Our architects create detailed drawings. We refine every detail
-                until you approve the final design.
+                Wir nehmen exaktes Aufmaß, wählen gemeinsam Materialien aus und erstellen
+                ein verbindliches Festpreisangebot – transparent und ohne versteckte Kosten.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button title="Learn" variant="secondary">
-                  Learn
+                <Button title="Angebot anfragen" variant="secondary">
+                  Angebot anfragen
                 </Button>
                 <Button
-                  title="→"
+                  title="Mehr erfahren"
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
                 >
-                  →
+                  Mehr erfahren
                 </Button>
               </div>
             </div>
             <div>
               <img
-                src="/images/hero-aerial-construction.jpg"
-                alt="Relume placeholder image 2"
+                src="/images/prozess/step2.png"
+                alt="Aufmaß & Angebot"
                 className="w-full object-cover"
               />
             </div>
@@ -258,33 +258,33 @@ export function Timeline15() {
           >
             <div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">
-                Week 4
+                Schritt 3
               </h3>
               <h4 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Fixed-price quote and contract signature
+                Vorbereitung & Planung
               </h4>
               <p className="md:text-md">
-                You receive a binding quote with every cost itemized. No
-                surprises later. You sign the contract.
+                Material wird bestellt, Lieferungen koordiniert und die Baustelle vorbereitet.
+                Wir stimmen alle Termine eng mit Ihnen ab.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button title="Learn" variant="secondary">
-                  Learn
+                <Button title="Kontakt aufnehmen" variant="secondary">
+                  Kontakt aufnehmen
                 </Button>
                 <Button
-                  title="→"
+                  title="Mehr erfahren"
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
                 >
-                  →
+                  Mehr erfahren
                 </Button>
               </div>
             </div>
             <div>
               <img
-                src="/images/craftsmen-stone-facade.jpg"
-                alt="Relume placeholder image 3"
+                src="/images/prozess/step3.png"
+                alt="Vorbereitung & Planung"
                 className="w-full object-cover"
               />
             </div>
@@ -295,33 +295,33 @@ export function Timeline15() {
           >
             <div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">
-                Weeks 5–8
+                Schritt 4
               </h3>
               <h4 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Permits and regulatory approvals
+                Montage & Ausführung
               </h4>
               <p className="md:text-md">
-                We submit all required documentation to Bavarian authorities. We
-                manage the approval process.
+                Unsere Profis führen die Montagearbeiten sauber und pünktlich aus.
+                Fenster, Türen, Tore und Böden werden fachgerecht eingebaut und laufend kontrolliert.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button title="Learn" variant="secondary">
-                  Learn
+                <Button title="Projekte ansehen" variant="secondary">
+                  Projekte ansehen
                 </Button>
                 <Button
-                  title="→"
+                  title="Mehr erfahren"
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
                 >
-                  →
+                  Mehr erfahren
                 </Button>
               </div>
             </div>
             <div>
               <img
-                src="/images/villa-twilight.jpg"
-                alt="Relume placeholder image 4"
+                src="/images/prozess/step4.png"
+                alt="Montage & Ausführung"
                 className="w-full object-cover"
               />
             </div>
@@ -332,33 +332,33 @@ export function Timeline15() {
           >
             <div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">
-                Weeks 9+
+                Schritt 5
               </h3>
               <h4 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Construction begins with scheduled milestones
+                Abnahme & Übergabe
               </h4>
               <p className="md:text-md">
-                Work starts on the agreed date. You track progress through our
-                digital dashboard and weekly reports.
+                Gemeinsam nehmen wir die fertige Arbeit ab. Eventuelle Mängel werden garantiert
+                beseitigt. Sie erhalten eine saubere Übergabe und vollständige Dokumentation.
               </p>
               <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button title="Learn" variant="secondary">
-                  Learn
+                <Button title="Jetzt anfragen" variant="secondary">
+                  Jetzt anfragen
                 </Button>
                 <Button
-                  title="→"
+                  title="Mehr erfahren"
                   variant="link"
                   size="link"
                   iconRight={<RxChevronRight />}
                 >
-                  →
+                  Mehr erfahren
                 </Button>
               </div>
             </div>
             <div>
               <img
-                src="/images/interior-oak-concrete.jpg"
-                alt="Relume placeholder image 5"
+                src="/images/prozess/step5.png"
+                alt="Abnahme & Übergabe"
                 className="w-full object-cover"
               />
             </div>
@@ -374,7 +374,7 @@ export function Timeline15() {
                 <div className={tabAnimation.circleClassName(0)} />
                 <div className="h-[3px] w-full bg-neutral-lighter" />
               </div>
-              <span className="text-xl font-bold md:text-2xl">Weeks 9+</span>
+              <span className="text-xl font-bold md:text-2xl">01</span>
             </TabsTrigger>
             <TabsTrigger
               value="tab-two"
@@ -385,7 +385,7 @@ export function Timeline15() {
                 <div className={tabAnimation.circleClassName(1)} />
                 <div className="h-[3px] w-full bg-neutral-lighter" />
               </div>
-              <span className="text-xl font-bold md:text-2xl">Weeks 9+</span>
+              <span className="text-xl font-bold md:text-2xl">02</span>
             </TabsTrigger>
             <TabsTrigger
               value="tab-three"
@@ -396,7 +396,7 @@ export function Timeline15() {
                 <div className={tabAnimation.circleClassName(2)} />
                 <div className="h-[3px] w-full bg-neutral-lighter" />
               </div>
-              <span className="text-xl font-bold md:text-2xl">Weeks 9+</span>
+              <span className="text-xl font-bold md:text-2xl">03</span>
             </TabsTrigger>
             <TabsTrigger
               value="tab-four"
@@ -407,7 +407,7 @@ export function Timeline15() {
                 <div className={tabAnimation.circleClassName(3)} />
                 <div className="h-[3px] w-full bg-neutral-lighter" />
               </div>
-              <span className="text-xl font-bold md:text-2xl">Weeks 9+</span>
+              <span className="text-xl font-bold md:text-2xl">04</span>
             </TabsTrigger>
             <TabsTrigger
               value="tab-five"
@@ -418,7 +418,7 @@ export function Timeline15() {
                 <div className={tabAnimation.circleClassName(4)} />
                 <div className="h-[3px] w-full bg-neutral-lighter" />
               </div>
-              <span className="text-xl font-bold md:text-2xl">Weeks 9+</span>
+              <span className="text-xl font-bold md:text-2xl">05</span>
               <div className="absolute right-0 top-3.5 z-0 h-2 w-16 bg-gradient-to-r from-transparent to-background-primary" />
             </TabsTrigger>
           </TabsList>

@@ -13,12 +13,12 @@ export function Header69() {
           className="mb-5 font-heading font-bold leading-[1.05] tracking-tight text-white"
           style={{ fontSize: "clamp(2.8rem, 6vw, 6rem)" }}
         >
-          Regensburg.<br />Qualität, die bleibt.
+          Marklkofen.<br />Qualität, die bleibt.
         </h1>
         <p className="font-body text-base leading-relaxed text-white/65 md:text-lg">
-          Seit 2016 bauen wir in Regensburg und der Region Regensburg.
+          Seit Jahren sind wir im südöstlichen Bayern für unsere Kunden da.
           Was mit klaren Werten und eigenem Fachpersonal begann, ist heute
-          ein zuverlässiges Trockenbau – mit moderner Technik und
+          ein zuverlässiger Betrieb für Montage & Renovierungen – mit moderner Technik und
           dem Anspruch, Qualität zu liefern, die bleibt.
         </p>
       </div>
@@ -26,7 +26,7 @@ export function Header69() {
         <img
           src="/images/villa-twilight.jpg"
           className="size-full object-cover"
-          alt="K.M. Trockenbau Regensburg"
+          alt="Montage & Renovierungen Pieczka – Marklkofen"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/20" />
       </div>

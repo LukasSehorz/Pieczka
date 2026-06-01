@@ -9,30 +9,26 @@ export function Content1() {
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
           <div>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Built right the first time
+              Sauber ausgeführt – von Anfang bis Ende
             </h2>
             <div className="prose">
               <div>
                 <p>
-                  Morbi sed imperdiet in ipsum, adipiscing elit dui lectus.
-                  Tellus id scelerisque est ultricies ultricies. Duis est sit
-                  sed leo nisl, blandit elit sagittis. Quisque tristique
-                  consequat quam sed. Nisl at scelerisque amet nulla purus
-                  habitasse.
+                  Montage & Renovierungen Pieczka steht für handwerkliche
+                  Qualität in Fensterbau, Türenmontage, Metalltore und
+                  Bodenbeläge. Jedes Projekt wird sorgfältig geplant und
+                  termintreu umgesetzt – im südöstlichen Bayern.
                 </p>
                 <p>
-                  Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas
-                  condimentum mi massa. In tincidunt pharetra consectetur sed
-                  duis facilisis metus. Etiam egestas in nec sed et. Quis
-                  lobortis at sit dictum eget nibh tortor commodo cursus.
+                  Von der ersten Beratung bis zur Übergabe begleitet Adrian
+                  Pieczka seine Kunden persönlich. Klare Kommunikation,
+                  transparente Preise und Arbeit ohne Kompromisse bei der
+                  Qualität sind der Maßstab für jedes Projekt.
                 </p>
                 <p>
-                  Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce
-                  aliquet. Nam elementum urna nisi aliquet erat dolor enim.
-                  Ornare id morbi eget ipsum. Aliquam senectus neque ut id eget
-                  consectetur dictum. Donec posuere pharetra odio consequat
-                  scelerisque et, nunc tortor. Nulla adipiscing erat a erat.
-                  Condimentum lorem posuere gravida enim posuere cursus diam.
+                  Ob Neubau, Sanierung oder Einzelmaßnahme: Pieczka liefert
+                  zuverlässige Montage- und Renovierungsleistungen aus einer
+                  Hand – pünktlich, sauber und mit echtem Handwerks­stolz.
                 </p>
               </div>
             </div>
@@ -40,7 +36,7 @@ export function Content1() {
           <div>
             <div>
               <img
-                src="/images/hero-aerial-construction.jpg"
+                src="/images/munich-residential.jpg"
                 className="w-full object-cover"
                 alt="Relume placeholder image"
               />

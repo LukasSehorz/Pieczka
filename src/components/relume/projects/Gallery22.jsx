@@ -5,28 +5,28 @@ import { gsap } from "../../../utils/gsap";
 
 const photos = [
   {
-    src: "/images/Beispiel-Projekte/projekt-highlight.png",
-    caption: "Innenausbau in vollem Gange – Ständerwerk und Rigips-Platten für neue Raumaufteilung.",
+    src: "/images/gallery-einblick-1.jpg",
+    caption: "Fenstermontage im Neubau – großformatige Verglasungen präzise und dauerhaft eingebaut.",
     span: "col-span-2 row-span-2",
   },
   {
-    src: "/images/Beispiel-Projekte/20170804_161012.jpg",
-    caption: "Montage der Gipskartonplatten auf Metallständer – sauber, schnell, normgerecht.",
+    src: "/images/gallery-einblick-2.jpg",
+    caption: "Vinylboden-Verlegung – sauber zugeschnitten, fugenlos verlegt und langlebig.",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/Beispiel-Projekte/IMG-20191203-WA0002.jpg",
-    caption: "Fugenspachtelung für eine glatte, makellose Oberfläche als Grundlage für den Anstrich.",
+    src: "/images/gallery-einblick-3.jpg",
+    caption: "Türeinbau nach Maß – Zargen lotrecht gesetzt, Beschläge passgenau montiert.",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/Beispiel-Projekte/20191210_151717.jpg",
-    caption: "Präzises Zuschneiden der Gipskartonplatten – Maßgenauigkeit von der ersten Linie an.",
+    src: "/images/gallery-einblick-4.jpg",
+    caption: "Sektionaltor-Montage am Einfamilienhaus – inklusive Antrieb und Einstellung.",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/Beispiel-Projekte/20191210_151726.jpg",
-    caption: "Fertig verputzte Wände und Abhangdecke mit integrierter LED-Beleuchtung.",
+    src: "/images/gallery-einblick-5.jpg",
+    caption: "Fensteranschluss aus nächster Nähe – lückenlos abgedichtet, wärmebrückenfrei.",
     span: "col-span-1 row-span-1",
   },
 ];

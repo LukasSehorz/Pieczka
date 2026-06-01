@@ -17,7 +17,7 @@ export function BlogPostHeader5() {
             <div className="rb-4 flex flex-col items-center sm:mb-0">
               <div className="mb-3 shrink-0 md:mb-4">
                 <img
-                  src="/images/hero-aerial-construction.jpg"
+                  src="/images/geschaeftsfuehrer.png"
                   alt="Relume placeholder avatar"
                   className="size-14 min-h-14 min-w-14 rounded-full object-cover"
                 />

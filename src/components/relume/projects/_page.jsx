@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div
       style={{
-        backgroundImage: "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('/images/projekte-bg.jpg')",
+        backgroundImage: "linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('/images/projekte-bg-new.jpg')",
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
         backgroundPosition: "center",

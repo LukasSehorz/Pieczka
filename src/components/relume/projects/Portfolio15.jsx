@@ -24,76 +24,57 @@ const splitWords = (el, text) => {
 const projects = [
   {
     id: "01",
-    title: "TV-Wand mit Mediannische",
-    category: "Trockenbau",
-    desc: "Maßgefertigte TV-Wand mit integrierter Mediannische aus Trockenbau",
-    location: "Regensburg",
-    img: "/images/projekt-tvwand.png",
-    detail: "Für ein Einfamilienhaus in Regensburg realisierte K.M. Trockenbau eine raumhohe TV-Wand aus Rigips. Die eingebaute Mediannische bietet Platz für TV, AV-Geräte und Dekoration – alles sauber verputzt und bereit zur Endbeschichtung. Sämtliche Kabel verlaufen unsichtbar in der Konstruktion.",
+    title: "Fenstereinbau Einfamilienhaus",
+    category: "Fensterbau",
+    desc: "Montage und Abdichtung von Kunststofffenstern im Neubau",
+    location: "Marklkofen",
+    img: "/images/g9-fenstermontage.jpg",
+    detail: "Für ein Einfamilienhaus in Marklkofen realisierte Pieczka den fachgerechten Einbau und die Abdichtung neuer Kunststofffenster. Sämtliche Anschlüsse wurden wärmebrückenfrei ausgeführt und dauerhaft abgedichtet.",
   },
   {
     id: "02",
-    title: "Abhangdecke mit Beleuchtung",
-    category: "Trockenbaudecke",
-    desc: "Abgehängte Decke mit LED-Einbauspots und indirekter Beleuchtung",
-    location: "Regensburg",
-    img: "/images/projekt-abhangdecke.png",
-    detail: "In einem Wohnraum in Regensburg baute K.M. Trockenbau eine moderne Abhangdecke mit indirekter LED-Beleuchtung und Einbauspots. Der umlaufende Lichtkanal schafft eine warme Raumwirkung. Die saubere Ausführung in Rigips bildet die perfekte Basis für die Endbeschichtung.",
+    title: "Türenmontage Wohnanlage",
+    category: "Türenbau",
+    desc: "Einbau von Innen- und Außentüren in einer Wohnanlage",
+    location: "Landshut",
+    img: "/images/g9-tuereinbau.jpg",
+    detail: "In einer Wohnanlage in Landshut übernahm Pieczka die Montage aller Innen- und Außentüren. Die Arbeiten erfolgten termintreu und in enger Abstimmung mit dem Bauablauf – sauber, präzise und ohne Folgeschäden.",
   },
   {
     id: "03",
-    title: "Dachgeschossausbau",
-    category: "Dachbodenausbau",
-    desc: "Ausbau eines Dachgeschosses mit Trockenbau-Schrägen und Verkleidung",
-    location: "Regensburg",
-    img: "/images/projekt-dachgeschoss.png",
-    detail: "Im Zuge eines Dachgeschossausbaus in Regensburg verkleidete K.M. Trockenbau die Dachschrägen und Wände vollständig in Rigips. Die saubere Ausführung der Schrägenverkleidung schafft einen hellen, modernen Wohnraum. Inklusive Dämmung nach aktuellen Energiesparstandards.",
+    title: "Garagentor-Austausch",
+    category: "Metalltore & Garagentore",
+    desc: "Demontage und Neuinstallation eines Sectionaltors mit Antrieb",
+    location: "Dingolfing",
+    img: "/images/g9-garagentor.jpg",
+    detail: "In Dingolfing wurde ein veraltetes Schwingtor durch ein modernes Sectionaltor mit elektrischem Antrieb ersetzt. Pieczka übernahm Abbau, Lieferung, Einbau und Einstellung – alles aus einer Hand.",
   },
   {
     id: "04",
-    title: "Lichtdecke – Indirekte Beleuchtung",
-    category: "Trockenbaudecke",
-    desc: "Raumhohe Lichtdecke mit umlaufendem LED-Lichtkanal",
-    location: "Regensburg",
-    img: "/images/projekt-lichtdecke.png",
-    detail: "Diese Lichtdecke entstand im Wohnzimmer eines Privathauses in Regensburg. K.M. Trockenbau baute eine abgehängte Konstruktion mit umlaufendem Lichtkanal für indirektes LED-Licht. Das Ergebnis: ein stimmungsvoller Raum mit gleichmäßiger, blendfreier Beleuchtung.",
+    title: "Bodenbelag Bürofläche",
+    category: "Bodenleger",
+    desc: "Verlegung von Vinylboden auf einer gewerblichen Bürofläche",
+    location: "Marklkofen",
+    img: "/images/projekt-boden-buero.jpg",
+    detail: "Auf einer Bürofläche in Marklkofen verlegte Pieczka hochwertigen Vinylboden. Untergrundvorbereitung, nivellieren und saubere Kantenabschlüsse inklusive – das Ergebnis: ein strapazierfähiger, ansprechender Boden.",
   },
   {
     id: "05",
-    title: "Wohnzimmer-Nische mit Naturstein",
-    category: "Innenausbau",
-    desc: "Individuelle Sitz-Nische aus Trockenbau mit Natursteinverkleidung",
-    location: "Regensburg",
-    img: "/images/projekt-nische.png",
-    detail: "Für ein Wohnzimmer in Regensburg fertigte K.M. Trockenbau eine gemütliche Sitz-Nische an. Die Trockenbauwände wurden mit Naturstein verkleidet und mit beleuchteten Nischen kombiniert. Ein individuelles Gestaltungselement das Wohnkomfort und handwerkliche Präzision vereint.",
+    title: "Renovierung Altbauwohnung",
+    category: "Renovierungsarbeiten",
+    desc: "Komplettrenovierung einer Altbauwohnung inkl. Böden und Türen",
+    location: "Vilsbiburg",
+    img: "/images/projekt-renovierung.jpg",
+    detail: "Für eine Altbauwohnung in Vilsbiburg führte Pieczka eine Komplettrenov­ierung durch: neue Böden, neue Türen, Fenstererneuerung und Abschlussarbeiten. Koordiniert, termingerecht und mit hoher Qualität.",
   },
   {
     id: "06",
-    title: "Badezimmer-Ausbau mit Nischen",
-    category: "Innenausbau",
-    desc: "Trockenbauarbeiten im Bad – Duschbereich mit eingebauten Nischen und Regalturm",
-    location: "Regensburg",
-    img: "/images/Beispiel-Projekte/20191210_151717.jpg",
-    detail: "Für ein Badezimmer in Regensburg realisierte K.M. Trockenbau einen modernen Duschbereich mit eingelassenen Wandnischen sowie einen freistehenden Regalturm aus Rigips. Die Konstruktion wurde wasserfest verspachtelt und ist bereit für die Fliesenarbeiten.",
-    imgAspect: "2/5",
-  },
-  {
-    id: "07",
-    title: "Deckenverkleidung & Ausbau",
-    category: "Trockenbaudecke",
-    desc: "Professionelle Deckenverkleidung mit Trockenbau nach Maß",
-    location: "Regensburg",
-    img: "/images/Beispiel-Projekte/Decken.jpg",
-    detail: "Für dieses Projekt in Regensburg realisierte K.M. Trockenbau eine maßgefertigte Deckenverkleidung. Die sorgfältige Ausführung in Rigips ermöglicht eine optimale Grundlage für Anstrich oder weitere Gestaltung. Präzise Verarbeitung auf den letzten Millimeter.",
-  },
-  {
-    id: "08",
-    title: "Trockenbau Innenraumgestaltung",
-    category: "Innenausbau",
-    desc: "Individuelle Raumgestaltung mit Trockenbau-Elementen",
-    location: "Regensburg",
-    img: "/images/Beispiel-Projekte/20191210_151726.jpg",
-    detail: "In diesem Projekt gestaltete K.M. Trockenbau einen Innenraum mit individuellen Trockenbau-Elementen. Von der Planung bis zur Fertigstellung wurde alles aus einer Hand geliefert – termintreu, sauber und mit höchster handwerklicher Qualität.",
+    title: "Metalltor Gewerbebetrieb",
+    category: "Metalltore & Garagentore",
+    desc: "Lieferung und Montage eines Stahltors für einen Gewerbebetrieb",
+    location: "Marklkofen",
+    img: "/images/projekt-metalltor.jpg",
+    detail: "Für einen Gewerbebetrieb in Marklkofen lieferte und montierte Pieczka ein robustes Stahltor mit integrierter Schlupftür. Die Ausführung erfolgte nach Maß und erfüllt alle Anforderungen an Sicherheit und Langlebigkeit.",
     imgAspect: "2/5",
   },
 ];
@@ -113,7 +94,7 @@ export function Portfolio15() {
       // Eyebrow + heading reveal
       gsap.set(eyebrowRef.current, { y: 22, opacity: 0 });
       const headingWords = headingRef.current
-        ? splitWords(headingRef.current, "Abgeschlossene Projekte in Regensburg")
+        ? splitWords(headingRef.current, "Abgeschlossene Projekte im südöstlichen Bayern")
         : [];
       gsap.set(headingWords, { yPercent: 110 });
 
@@ -210,7 +191,7 @@ export function Portfolio15() {
             className="font-heading font-bold leading-tight tracking-tight text-white"
             style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
           >
-            Abgeschlossene Projekte in Regensburg
+            Abgeschlossene Projekte im südöstlichen Bayern
           </h2>
         </div>
 

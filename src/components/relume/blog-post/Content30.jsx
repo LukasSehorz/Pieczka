@@ -78,7 +78,7 @@ export function Content30() {
               </p>
               <figure>
                 <img
-                  src="/images/hero-aerial-construction.jpg"
+                  src="/images/trockenbau-section.jpg"
                   alt="Relume placeholder image"
                 />
                 <figcaption>Image caption goes here</figcaption>
@@ -207,7 +207,7 @@ export function Content30() {
           <div className="flex flex-col items-center gap-4 text-center">
             <div>
               <img
-                src="https://cdn.prod.website-files.com/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg"
+                src="/images/geschaeftsfuehrer.png"
                 alt="Logo"
                 className="size-14 rounded-full object-cover"
               />

@@ -64,7 +64,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/hero-aerial-construction.jpg"
+                    src="/images/zwei-bauarbeiter.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -130,7 +130,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/team-blueprints.jpg"
+                    src="/images/layout-handwerk.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -204,7 +204,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/hero-aerial-construction.jpg"
+                    src="/images/zwei-bauarbeiter.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -270,7 +270,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/team-blueprints.jpg"
+                    src="/images/layout-handwerk.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -344,7 +344,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/hero-aerial-construction.jpg"
+                    src="/images/zwei-bauarbeiter.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -410,7 +410,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/team-blueprints.jpg"
+                    src="/images/layout-handwerk.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -484,7 +484,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/hero-aerial-construction.jpg"
+                    src="/images/zwei-bauarbeiter.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -550,7 +550,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/team-blueprints.jpg"
+                    src="/images/layout-handwerk.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -624,7 +624,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/hero-aerial-construction.jpg"
+                    src="/images/zwei-bauarbeiter.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />
@@ -690,7 +690,7 @@ export function Blog16() {
               <div className="grid gap-x-8 gap-y-6 md:grid-cols-[.75fr_1fr] md:gap-y-4">
                 <a href="#" className="w-full">
                   <img
-                    src="/images/team-blueprints.jpg"
+                    src="/images/layout-handwerk.jpg"
                     alt="Relume placeholder image"
                     className="aspect-square w-full object-cover"
                   />

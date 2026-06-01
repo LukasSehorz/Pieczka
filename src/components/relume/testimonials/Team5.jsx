@@ -15,14 +15,14 @@ export function Team5() {
             Unser Team
           </h2>
           <p className="md:text-md">
-            Die Gesichter hinter jedem Projekt in Bayern
+            Die Gesichter hinter jedem Projekt im südöstlichen Bayern
           </p>
         </div>
         <div className="grid grid-cols-1 items-start justify-center gap-x-8 gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
           <div className="flex flex-col text-center">
             <div className="rb-5 mb-5 flex w-full items-center justify-center md:mb-6">
               <img
-                src="/images/hero-aerial-construction.jpg"
+                src="/images/zwei-bauarbeiter.jpg"
                 alt="Relume placeholder image 1"
                 className="size-20 min-h-20 min-w-20 rounded-full object-cover"
               />
@@ -90,7 +90,7 @@ export function Team5() {
               <h6 className="md:text-md">Meister</h6>
             </div>
             <p>
-              Leitet Projekte in Regensburg und Niederbayern mit handwerklichem
+              Leitet Projekte in Marklkofen und Niederbayern mit handwerklichem
               Geschick
             </p>
             <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-[0.875rem] self-center">

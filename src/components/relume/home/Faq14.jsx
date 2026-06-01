@@ -6,28 +6,28 @@ import { gsap } from "../../../utils/gsap";
 
 const faqs = [
   {
-    q: "Welche Leistungen bietet K.M. Trockenbau an?",
-    a: "Wir bieten Trockenbau (Wände & Zwischenwände), Dachbodenausbau, Wärme- und Schallschutz, Trockenbaudecken, Bodenbeläge sowie Badsanierung an — alles aus einer Hand, von der Erstberatung bis zur Fertigstellung.",
+    q: "Welche Leistungen bietet Montage & Renovierungen Pieczka an?",
+    a: "Wir bieten Fensterbau, Türenbau, Metalltore & Garagentore, Bodenleger & Bodenbeläge, Renovierungsarbeiten sowie allgemeine Montagearbeiten an — alles aus einer Hand, von der Erstberatung bis zur Fertigstellung.",
   },
   {
     q: "In welcher Region sind Sie tätig?",
-    a: "Unser Schwerpunkt liegt in Regensburg und der umliegenden Region. Sprechen Sie uns gerne an — wir sind auch für Projekte im weiteren Umkreis der richtige Ansprechpartner.",
+    a: "Unser Schwerpunkt liegt im südöstlichen Bayern rund um Marklkofen. Sprechen Sie uns gerne an — wir sind auch für Projekte im weiteren Umkreis der richtige Ansprechpartner.",
   },
   {
     q: "Wie kann ich ein Angebot anfragen?",
-    a: "Kontaktieren Sie uns telefonisch unter +49 (0) 176 38 58 39 54 oder per E-Mail an info-kalac-trockenbau@web.de. Gerne fertigen wir Ihnen ein individuelles Angebot an.",
+    a: "Kontaktieren Sie uns telefonisch unter +49 171 6561613 oder per E-Mail an info@montage-pieczka.de. Gerne fertigen wir Ihnen ein individuelles Angebot an.",
   },
   {
-    q: "Halten Sie die aktuellen DIN-Normen ein?",
-    a: "Ja, unbedingt. Wir beachten alle aktuellen DIN-Normen beim Trocken- und Innenausbau. Durch kontinuierliche Weiterbildung sind wir stets auf dem neuesten Stand der Technik und Vorschriften.",
+    q: "Bauen Sie auch Garagentore und Metalltore ein?",
+    a: "Ja. Wir montieren und installieren Metalltore und Garagentore fachgerecht. Sprechen Sie uns an — wir beraten Sie zu den passenden Lösungen für Ihr Objekt.",
   },
   {
-    q: "Beraten Sie auch zu Brandschutz und Dämmung?",
-    a: "Ja. Da wir großen Wert auf die Sicherheit unserer Kunden legen, sind wir über aktuelle Brandschutzsysteme sehr gut informiert und stehen Ihnen beratend zur Seite. Ebenso beim Thema Wärme- und Schallschutz.",
+    q: "Verlegen Sie auch Bodenbeläge?",
+    a: "Ja. Als Bodenleger verlegen wir verschiedenste Bodenbeläge — von Laminat und Parkett bis hin zu Vinylböden und Fliesen. Qualität und saubere Ausführung stehen bei uns an erster Stelle.",
   },
   {
-    q: "Kann ich auch meinen Dachboden ausbauen lassen?",
-    a: "Ja. Wenn Sie einen noch nicht genutzten Rohbau besitzen und mehr Wohnfläche schaffen möchten, sind wir der richtige Ansprechpartner. Wir verwandeln ungenutzten Dachraum in wertvolle Wohnfläche.",
+    q: "Sind Sie auch für kleinere Renovierungsarbeiten zuständig?",
+    a: "Ja. Ob kleine Reparaturen oder umfangreiche Renovierungsarbeiten — wir stehen Ihnen als zuverlässiger Partner zur Verfügung. Einfach Kontakt aufnehmen und Ihren Bedarf schildern.",
   },
 ];
 

@@ -6,17 +6,17 @@ import { gsap } from "../../../utils/gsap";
 const features = [
   {
     title: "Langjährige Erfahrung",
-    body: "K.M. Trockenbau steht für jahrelange Erfahrung im Innenausbau. Wir beherrschen alle Systeme im Wand-, Decken- und Bodenbereich und beachten dabei stets die aktuellen DIN-Normen.",
+    body: "Montage & Renovierungen Pieczka steht für jahrelange Erfahrung in Fensterbau, Türenbau und Montagearbeiten. Adrian Pieczka beherrscht sein Handwerk und liefert dauerhaft zuverlässige Ergebnisse.",
     image: "/images/layout-handwerk.jpg",
   },
   {
     title: "Qualität & Verlässlichkeit",
-    body: "Von der individuellen Erstberatung bis zur Fertigstellung sorgen wir für klar konzipierte Strukturen. Wir gehen auf Ihre Wünsche ein und liefern termingerecht — ohne Kompromisse bei der Qualität.",
+    body: "Von der individuellen Erstberatung bis zur Fertigstellung sorgen wir für präzise Ausführung. Wir gehen auf Ihre Wünsche ein und liefern termingerecht — ohne Kompromisse bei der Qualität.",
     image: "/images/layout-persoenlichkeit.jpg",
   },
   {
-    title: "Ihr Partner in Regensburg",
-    body: "Regensburg ist unsere Heimat. Sie finden uns in der Siegfriedstrasse 3, 93051 Regensburg. Wir stehen Ihnen persönlich beratend zur Seite — auch bei Brandschutzfragen und aktuellen Sicherheitsstandards.",
+    title: "Ihr Partner im südöstlichen Bayern",
+    body: "Marklkofen ist unser Standort. Wir sind für Sie im südöstlichen Bayern tätig — für Fensterbau, Türenbau, Metalltore, Bodenbeläge und Renovierungsarbeiten. Persönlich, kompetent und schnell.",
     image: "/images/layout-region.jpg",
   },
 ];
@@ -133,8 +133,8 @@ export function Layout237() {
             Unsere Stärken
           </p>
           <h2
-            className="font-heading font-bold leading-[1.05] tracking-tight text-[#5AACB5]"
-            style={{ fontSize: "clamp(2.4rem, 4.5vw, 4.5rem)" }}
+            className="font-heading font-extrabold text-[#5AACB5]"
+            style={{ fontSize: "clamp(2.4rem, 4.5vw, 4.5rem)", lineHeight: 1.06, letterSpacing: "-0.03em" }}
           >
             <span className="block" style={{ overflow: "hidden", paddingBottom: "0.08em" }}>
               <span className="l237-heading-inner block">Wie wir arbeiten.</span>

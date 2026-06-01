@@ -23,50 +23,50 @@ const splitWords = (el, text) => {
 
 const jobs = [
   {
-    title: "Maurer (m/w/d)",
+    title: "Monteur / Fensterbauer (m/w/d)",
     type: "Vollzeit",
-    location: "Regensburg · Region Regensburg",
-    desc: "Erstellung von Wänden, Mauern und Decken im Hochbau. Mitwirken bei Wohn- und Geschäftshäusern, Hallen, Ställen, Kellern und Bodenplatten.",
+    location: "Marklkofen · Südöstliches Bayern",
+    desc: "Montage und Einbau von Fenstern und Türen bei Privat- und Gewerbekunden. Präzises Arbeiten und Kundenfreundlichkeit sind dabei oberstes Gebot.",
     anforderungen: [
-      "Abgeschlossene Ausbildung als Maurer",
-      "Erfahrung in Schalungsarbeiten, Betonieren und Verputzen",
+      "Erfahrung im Fensterbau, Türenbau oder verwandten Bereichen",
+      "Handwerkliches Geschick und Sorgfalt",
       "Teamfähigkeit und Zuverlässigkeit",
       "Führerschein Klasse B von Vorteil",
     ],
     bieten: [
       "Überdurchschnittliche Bezahlung",
       "Arbeitskleidung & Sozialleistungen",
-      "Junges, motiviertes Team mit Spaß an der Arbeit",
+      "Motiviertes Team mit Spaß an der Arbeit",
       "Volle Auftragsbücher – keine Angst vor Kurzarbeit",
     ],
   },
   {
-    title: "Kranfahrer (m/w/d)",
+    title: "Bodenleger (m/w/d)",
     type: "Vollzeit",
-    location: "Regensburg · Region Regensburg",
-    desc: "Sichere und präzise Steuerung unserer Krane sowie Unterstützung des Teams bei Hebe- und Transportarbeiten auf unseren Baustellen.",
+    location: "Marklkofen · Südöstliches Bayern",
+    desc: "Verlegung verschiedener Bodenbeläge bei Privat- und Gewerbekunden. Saubere Verarbeitung und fachgerechte Ausführung werden großgeschrieben.",
     anforderungen: [
-      "Kranführerschein (und idealerweise Erfahrung am Haken)",
+      "Erfahrung im Verlegen von Bodenbelägen (Parkett, Laminat, Fliesen o. ä.)",
       "Verantwortungsbewusstsein und Teamgeist",
-      "Lust, mit moderner Technik zu arbeiten",
+      "Lust, mit modernen Materialien zu arbeiten",
       "Zuverlässigkeit und Sorgfalt",
     ],
     bieten: [
       "Sicherer Arbeitsplatz in einem starken Team",
       "Faire Bezahlung",
-      "Moderne Maschinen & Ausstattung",
+      "Moderne Werkzeuge & Ausstattung",
       "Abwechslungsreiche Projekte in der Region",
     ],
   },
   {
-    title: "Bauhelfer (m/w/d)",
+    title: "Montagehelfer (m/w/d)",
     type: "Vollzeit",
-    location: "Regensburg · Region Regensburg",
-    desc: "Unterstützen bei verschiedenen Bauarbeiten und Auf-/Abbauarbeiten. Du packst gern mit an und willst Teil eines starken Teams sein.",
+    location: "Marklkofen · Südöstliches Bayern",
+    desc: "Unterstützung bei Montage- und Renovierungsarbeiten. Du packst gern mit an und willst Teil eines starken Teams bei M. & R. Pieczka sein.",
     anforderungen: [
-      "Handwerkliches Geschick & Lust auf körperliche Arbeit",
+      "Handwerkliches Geschick & Lust auf abwechslungsreiche Arbeit",
       "Zuverlässigkeit und Teamgeist",
-      "Erfahrung auf dem Bau? Super – aber kein Muss",
+      "Erfahrung im Handwerk? Super – aber kein Muss",
       "Führerschein Klasse B wäre von Vorteil",
     ],
     bieten: [
@@ -286,7 +286,7 @@ export function Karriere() {
                           </div>
                         </div>
                         <a
-                          href="mailto:info-kalac-trockenbau@web.de"
+                          href="mailto:info@montage-pieczka.de"
                           onClick={(e) => e.stopPropagation()}
                           className="inline-flex items-center gap-2 bg-[#5AACB5] px-5 py-2.5 font-body text-xs font-semibold uppercase tracking-[0.12em] text-white transition-opacity hover:opacity-85"
                         >
@@ -313,23 +313,23 @@ export function Karriere() {
                 <p className="mt-3 font-body text-sm text-[#0D2020]/50 leading-relaxed">
                   Wir freuen uns jederzeit über Initiativbewerbungen qualifizierter Handwerker.
                   Schriftlich an:<br />
-                  <span className="text-[#0D2020]/70">K.M. Trockenbau · Siegfriedstrasse 3, 93051 Regensburg</span>
+                  <span className="text-[#0D2020]/70">Montage & Renovierungen Pieczka · Im Schreinerfeld 5, 84163 Marklkofen</span>
                 </p>
               </div>
               <div className="flex flex-col gap-3">
                 <a
-                  href="mailto:info-kalac-trockenbau@web.de"
+                  href="mailto:info@montage-pieczka.de"
                   className="inline-flex items-center gap-3 border border-[#5AACB5]/20 px-6 py-4 font-body text-sm text-[#0D2020] transition-all duration-200 hover:border-[#5AACB5] hover:text-[#5AACB5]"
                 >
                   <span className="text-[#5AACB5] text-base">✉</span>
-                  info-kalac-trockenbau@web.de
+                  info@montage-pieczka.de
                 </a>
                 <a
-                  href="tel:+4915158720108"
+                  href="tel:+491716561613"
                   className="inline-flex items-center gap-3 border border-[#5AACB5]/20 px-6 py-4 font-body text-sm text-[#0D2020] transition-all duration-200 hover:border-[#5AACB5] hover:text-[#5AACB5]"
                 >
                   <span className="text-[#5AACB5] text-base">☎</span>
-                  +49 176 38583954
+                  +49 171 6561613
                 </a>
               </div>
             </div>

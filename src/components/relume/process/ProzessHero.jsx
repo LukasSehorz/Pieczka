@@ -44,7 +44,7 @@ export function ProzessHero() {
       {/* Background image */}
       <img
         src="/images/prozess-hero.jpg"
-        alt="K.M. Trockenbau – Prozess"
+        alt="Montage & Renovierungen Pieczka – Prozess"
         className="prozess-hero-bg absolute inset-0 h-full w-full object-cover object-center"
         style={{ willChange: "transform" }}
       />
@@ -80,7 +80,7 @@ export function ProzessHero() {
 
         <p className="prozess-hero-sub max-w-[400px] font-body text-base leading-relaxed text-white/55 md:text-lg">
           Fünf klar definierte Schritte. Festpreise, Termintreue und volle
-          Transparenz – von der ersten Beratung bis zur Schlüsselübergabe.
+          Transparenz – von der ersten Beratung bis zur fertigen Montage.
         </p>
 
         {/* CTA (mobile / tablet — desktop CTA lives next to the scroll indicator) */}

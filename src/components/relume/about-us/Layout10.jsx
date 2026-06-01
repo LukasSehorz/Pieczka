@@ -12,17 +12,17 @@ export function Layout10() {
               Unsere Geschichte
             </p>
             <h2 className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-text-primary md:text-5xl lg:text-6xl">
-              Gegründet 2020. Qualität aus einer Hand.
+              Marklkofen. Qualität aus einer Hand.
             </h2>
             <p className="mb-6 font-body text-base leading-relaxed text-text-secondary md:text-lg">
-              <strong className="text-text-primary font-semibold">Kalac Mujo</strong> gründete K.M. Trockenbau in Regensburg.
+              <strong className="text-text-primary font-semibold">Adrian Pieczka</strong> gründete Montage & Renovierungen Pieczka in Marklkofen.
               Von Anfang an stand das Unternehmen für klare Werte: Qualität, Verlässlichkeit und persönliche Betreuung.
-              Mit eigenem Fachpersonal und moderner Ausstattung wächst K.M. Trockenbau stetig in der Region Regensburg.
+              Mit eigenem Fachpersonal und moderner Ausstattung wächst M. & R. Pieczka stetig im südöstlichen Bayern.
             </p>
             <p className="mb-8 font-body text-base leading-relaxed text-text-secondary md:text-lg">
-              Unser Aufgabenschwerpunkt liegt in der Ausführung von Baumeisterarbeiten im Hoch-, Erd- und Kanalbau.
-              Wir erstellen und sanieren sämtliche Wohn-, Gewerbe- und Ingenieurbauwerke – auch mit höchstem Schwierigkeitsgrad.
-              Durch eigene Fachkräfte und konsequente Lehrlingsausbildung sichern wir gleichbleibend hohe Qualität.
+              Unser Aufgabenschwerpunkt liegt in der Ausführung von Fensterbau, Türenbau, Metalltoren & Garagentoren,
+              Bodenbelägen sowie umfassenden Renovierungs- und Montagearbeiten.
+              Wir betreuen Privat- und Gewerbekunden im südöstlichen Bayern mit gleichbleibend hoher Qualität.
             </p>
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
               <div className="border-l-2 border-hoser-gold pl-5">
@@ -62,7 +62,7 @@ export function Layout10() {
             <img
               src="/images/craftsmen-stone-facade.jpg"
               className="w-full object-cover transition-transform duration-700 hover:scale-105"
-              alt="K.M. Trockenbau – Facharbeiter auf der Baustelle"
+              alt="Montage & Renovierungen Pieczka – Facharbeiter auf der Baustelle"
             />
           </div>
         </div>

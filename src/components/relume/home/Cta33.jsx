@@ -3,12 +3,12 @@
 import React from "react";
 
 const badges = [
-  "DIN-normgerecht",
-  "Persönliche Beratung",
-  "Trockenbau",
-  "Dachbodenausbau",
-  "Wärme- & Schallschutz",
-  "Badsanierung",
+  "Fensterbau",
+  "Türenbau",
+  "Metalltore & Garagentore",
+  "Bodenleger",
+  "Renovierungsarbeiten",
+  "Montagearbeiten",
 ];
 
 export function Cta33() {
@@ -21,7 +21,7 @@ export function Cta33() {
               Jetzt starten
             </p>
             <h2 className="mb-5 font-heading text-5xl font-bold leading-tight tracking-tight text-text-primary md:text-7xl lg:text-8xl">
-              Bereit für Ihren Innenausbau in Regensburg?
+              Bereit für Ihr Projekt im südöstlichen Bayern?
             </h2>
             <p className="mb-8 font-body text-base text-text-secondary md:text-lg">
               Zögern Sie nicht, uns zu kontaktieren.
@@ -35,10 +35,10 @@ export function Cta33() {
                 Kostenloses Angebot anfragen
               </a>
               <a
-                href="tel:+4917638583954"
+                href="tel:+491716561613"
                 className="inline-flex items-center border border-border-primary px-8 py-3 font-body text-sm font-semibold tracking-wide text-text-primary transition-colors duration-200 hover:border-text-primary"
               >
-                +49 (0) 176 38 58 39 54
+                +49 171 6561613
               </a>
             </div>
           </div>

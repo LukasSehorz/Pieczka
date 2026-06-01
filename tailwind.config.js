@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Syne", "sans-serif"],
-        serif: ["Playfair Display", "Georgia", "serif"],
+        heading: ["Plus Jakarta Sans", "sans-serif"],
+        serif: ["Plus Jakarta Sans", "sans-serif"],
         body: ["DM Sans", "sans-serif"],
       },
       colors: {

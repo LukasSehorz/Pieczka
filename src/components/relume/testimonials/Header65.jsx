@@ -25,7 +25,7 @@ export function Header65() {
       </div>
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-aerial-construction.jpg"
+          src="/images/zwei-bauarbeiter.jpg"
           className="size-full object-cover"
           alt="Relume placeholder image"
         />

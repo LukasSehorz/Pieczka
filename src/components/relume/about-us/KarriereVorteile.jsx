@@ -40,12 +40,12 @@ const vorteile = [
   {
     num: "04",
     title: "Familiäres Team",
-    desc: "Seit 2016 in Regensburg. Flache Hierarchien, direkte Kommunikation, Respekt und Zusammenhalt.",
+    desc: "In Marklkofen verwurzelt. Flache Hierarchien, direkte Kommunikation, Respekt und Zusammenhalt.",
   },
   {
     num: "05",
     title: "Sicherer Arbeitsplatz",
-    desc: "Konstante Auftragslage durch starkes regionales Netzwerk in Regensburg und der Region Regensburg.",
+    desc: "Konstante Auftragslage durch starkes regionales Netzwerk im südöstlichen Bayern und Umgebung.",
   },
   {
     num: "06",
@@ -158,7 +158,7 @@ export function KarriereVorteile() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:items-end">
             <div>
               <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-[#5AACB5]">
-                Karriere bei K.M. Trockenbau
+                Karriere bei Montage & Renovierungen Pieczka
               </p>
               <h2
                 ref={headingRef}

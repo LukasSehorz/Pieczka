@@ -26,9 +26,9 @@ export function Header65() {
       </div>
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-aerial-construction.jpg"
+          src="/images/craftsmen-stone-facade.jpg"
           className="size-full object-cover"
-          alt="Relume placeholder image"
+          alt="Ausgezeichnetes Handwerk – Zertifizierungen"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

@@ -33,15 +33,15 @@ export function Contact6() {
           <div className="grid gap-4">
             <div className="flex items-center gap-4">
               <BiEnvelope className="size-5 flex-none text-[#5AACB5]" />
-              <p className="font-body text-sm text-[#0D2020]">info-kalac-trockenbau@web.de</p>
+              <p className="font-body text-sm text-[#0D2020]">info@montage-pieczka.de</p>
             </div>
             <div className="flex items-center gap-4">
               <BiPhone className="size-5 flex-none text-[#5AACB5]" />
-              <p className="font-body text-sm text-[#0D2020]">+49 176 38583954</p>
+              <p className="font-body text-sm text-[#0D2020]">+49 171 6561613</p>
             </div>
             <div className="flex items-center gap-4">
               <BiMap className="size-5 flex-none text-[#5AACB5]" />
-              <p className="font-body text-sm text-[#0D2020]">Siegfriedstrasse 3, 93051 Regensburg</p>
+              <p className="font-body text-sm text-[#0D2020]">Im Schreinerfeld 5, 84163 Marklkofen</p>
             </div>
           </div>
         </div>

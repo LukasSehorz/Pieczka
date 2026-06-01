@@ -211,8 +211,7 @@ export function HoserHero() {
               className="hoser-main-word"
               style={{ filter: "url(#hoser-cloth)", willChange: "transform" }}
             >
-              <h1 style={{
-                fontFamily: "Syne, sans-serif",
+              <h1 className="font-heading" style={{
                 fontWeight: 900,
                 fontSize: "clamp(14vw, 20vw, 22vw)",
                 letterSpacing: "-0.02em",
@@ -249,9 +248,8 @@ export function HoserHero() {
               {BAU.map((letter, i) => (
                 <div key={i} style={{ overflow: "hidden", lineHeight: 1.15 }}>
                   <span
-                    className={`bau-inner-${i}`}
+                    className={`bau-inner-${i} font-heading`}
                     style={{
-                      fontFamily: "Syne, sans-serif",
                       fontWeight: 700,
                       fontSize: "clamp(3.8vw, 5.5vw, 6.5vw)",
                       letterSpacing: "0.015em",
@@ -288,8 +286,7 @@ export function HoserHero() {
               display: "block", height: 1, width: 32,
               background: "rgba(255,255,255,0.30)",
             }} />
-            <span style={{
-              fontFamily: "DM Sans, sans-serif",
+            <span className="font-body" style={{
               fontSize: "0.7rem",
               letterSpacing: "0.2em",
               textTransform: "uppercase",

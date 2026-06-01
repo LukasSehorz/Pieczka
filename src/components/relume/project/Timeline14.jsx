@@ -67,7 +67,7 @@ export function Timeline14() {
             },
           ],
           image: {
-            src: "/images/hero-aerial-construction.jpg",
+            src: "/images/gallery-einblick-01.jpg",
             alt: "Relume placeholder image 1",
           },
         },
@@ -159,7 +159,7 @@ export function Timeline14() {
             },
           ],
           image: {
-            src: "/images/team-blueprints.jpg",
+            src: "/images/zwei-bauarbeiter.jpg",
             alt: "Relume placeholder image 5",
           },
         },
@@ -302,7 +302,7 @@ export function Timeline14() {
               </div>
             </div>
             <img
-              src="/images/hero-aerial-construction.jpg"
+              src="/images/gallery-einblick-02.jpg"
               alt="Relume placeholder image 2"
               className="w-full object-cover"
             />

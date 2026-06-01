@@ -43,12 +43,12 @@ const STEPS = [
   },
   {
     num: "04",
-    title: "Montage & Ausbau",
+    title: "Montage & Ausführung",
     Icon: Building2,
     above: true,
     img: "/images/prozess/step4.png",
     bullets: [
-      "Ständerwerk, Platten & Dämmung",
+      "Fenster, Türen, Tore & Böden einbauen",
       "Saubere & pünktliche Ausführung",
       "Laufende Qualitätskontrolle",
     ],
@@ -521,11 +521,11 @@ export function ProzessPath() {
               letterSpacing: "0.25em", textTransform: "uppercase",
               color: "#5AACB5",
             }}>
-              Der K.M. Trockenbau-Prozess
+              Der Pieczka-Prozess
             </span>
           </div>
-          <h2 style={{
-            fontFamily: "Syne, sans-serif", fontWeight: 800,
+          <h2 className="font-heading" style={{
+            fontWeight: 800,
             fontSize: "clamp(2rem, 3.5vw, 3.5rem)",
             color: "#0D2020", lineHeight: 1.1, letterSpacing: "-0.02em",
             margin: 0,
@@ -686,8 +686,8 @@ export function ProzessPath() {
                         </li>
                       ))}
                     </ul>
-                    <h3 className="card-title" style={{
-                      fontFamily: "Syne, sans-serif", fontWeight: 700,
+                    <h3 className="card-title font-heading" style={{
+                      fontWeight: 700,
                       fontSize: "1.35rem", color: "#0D2020",
                       marginBottom: 6, lineHeight: 1.2, textAlign: "center",
                     }}>
@@ -734,8 +734,8 @@ export function ProzessPath() {
                     }}>
                       {step.num}
                     </p>
-                    <h3 className="card-title" style={{
-                      fontFamily: "Syne, sans-serif", fontWeight: 700,
+                    <h3 className="card-title font-heading" style={{
+                      fontWeight: 700,
                       fontSize: "1.35rem", color: "#0D2020",
                       marginBottom: 14, lineHeight: 1.2, textAlign: "center",
                     }}>
@@ -768,10 +768,11 @@ export function ProzessPath() {
         {/* PROZESS watermark — left-aligned, fixed to section, fades with heading */}
         <div
           ref={prozessRef}
+          className="font-heading"
           style={{
             position: "absolute", left: "5%", top: "50%",
           transform: "translateY(-50%)",
-            fontFamily: "Syne, sans-serif", fontWeight: 900,
+            fontWeight: 900,
             fontSize: "clamp(2.4rem, 4.5vw, 4.5rem)",
             color: "rgba(14,42,107,0.07)", userSelect: "none",
             zIndex: 0, letterSpacing: "-0.04em",
